@@ -1,0 +1,81 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import StepsForm from '../components/StepsForm.astro';
+
+const title = "Guide Étanchéité de Toiture Terrasse dans les Alpes-Maritimes (06) | Toit Plat";
+const description = "Découvrez nos conseils d'étanchéité, isolation thermique et aménagement de toits terrasses de standing dans le 06 (Nice, Cannes, Antibes).";
+
+const breadcrumbItems = [
+  { label: "Accueil", href: "/" },
+  { label: "Étanchéité Toiture Terrasse" }
+];
+---
+
+<Layout title={title} description={description}>
+  <Breadcrumb items={breadcrumbItems} />
+
+  <section style="padding: 50px 0 80px; background-color: var(--card-bg);">
+    <div class="container">
+      <div style="text-align: center; max-width: 800px; margin: 0 auto 50px;">
+        <span class="badge-pill" style="margin-bottom: 15px;">🏢 Étanchéité Toit Plat Riviera</span>
+        <h1 style="font-family: var(--font-heading); font-size: 36px; font-weight: 800; color: var(--primary); margin-bottom: 15px;">
+          Toiture Terrasse &amp; Étanchéité : Solutions Modernes dans le 06
+        </h1>
+        <p style="font-size: 16.5px; color: var(--text-muted); line-height: 1.6;">
+          Élément phare de l'architecture contemporaine sur la Côte d'Azur, le toit plat exige une étanchéité sans faille. En l'absence de pente, une étanchéité défectueuse conduit rapidement à d'importants sinistres de structure.
+        </p>
+      </div>
+
+      <div class="two-column-layout" style="align-items: start;">
+        <!-- Left: Technical Article -->
+        <div style="font-size: 15px; color: var(--text); line-height: 1.7; display: flex; flex-direction: column; gap: 25px;">
+          <div style="border-radius: var(--radius-md); overflow: hidden; border: 1.5px solid var(--border-color); box-shadow: var(--shadow-sm); margin-bottom: 5px;">
+            <img src="/images/guide-toiture-terrasse.png" alt="Toiture terrasse moderne avec végétation et dalles sur plots dominant la mer" style="width: 100%; height: 240px; object-fit: cover;" />
+          </div>
+
+          <div style="background: var(--primary-light); border: 1.5px solid var(--border-color); padding: 25px; border-radius: var(--radius-sm);">
+            <h3 style="font-family: var(--font-heading); font-weight: 700; color: var(--primary); margin-bottom: 10px; font-size: 18px;">💡 Pourquoi soigner l'étanchéité de son toit plat ?</h3>
+            <p style="margin: 0; color: var(--text-muted);">
+              Contrairement aux toits pentus qui évacuent l'eau de pluie par gravité, le toit terrasse retient temporairement les eaux lors des orages violents. La barrière d'étanchéité (PVC-P ou EPDM) doit être 100% étanche à l'eau stagnante et résister aux chocs thermiques intenses du climat azuréen.
+            </p>
+          </div>
+
+          <div>
+            <h3 style="font-family: var(--font-heading); font-size: 22px; font-weight: 800; color: var(--primary); margin-bottom: 15px;">Les Solutions d'Étanchéité Recommandées</h3>
+            
+            <h4 style="font-family: var(--font-heading); font-size: 17px; font-weight: 750; color: var(--primary); margin-top: 15px; margin-bottom: 8px;">1. La membrane synthétique PVC-P</h4>
+            <p style="color: var(--text-muted); margin-bottom: 15px;">
+              Cette membrane monocouche en PVC plastifié est soudée à l'air chaud. Elle offre une excellente résistance au soleil azuréen (anti-UV) et s'adapte parfaitement aux toitures terrasses techniques non circulables. Elle est légère et économique.
+            </p>
+            
+            <h4 style="font-family: var(--font-heading); font-size: 17px; font-weight: 750; color: var(--primary); margin-bottom: 8px;">2. La membrane élastomère EPDM</h4>
+            <p style="color: var(--text-muted); margin-bottom: 15px;">
+              En caoutchouc synthétique de très haute résistance, la membrane EPDM dispose d'une élasticité supérieure à 300% qui absorbe les mouvements de dilatation des structures en béton dues à la chaleur de Nice ou Cannes. Sa durée de vie estimée dépasse 50 ans.
+            </p>
+
+            <h4 style="font-family: var(--font-heading); font-size: 17px; font-weight: 750; color: var(--primary); margin-bottom: 8px;">3. La toiture végétalisée (TTV)</h4>
+            <p style="color: var(--text-muted); margin-bottom: 15px;">
+              Intégrer une couche de sédum et de terre légère sur une membrane d'étanchéité anti-racines. Cette solution apporte un confort thermique d'été exceptionnel (climatisation passive par évapotranspiration des plantes) et retient l'eau de pluie pour limiter les inondations lors des orages d'automne.
+            </p>
+          </div>
+
+          <div style="background: white; border: 1.5px solid var(--border-color); border-radius: var(--radius-sm); padding: 30px; box-shadow: var(--shadow-sm);">
+            <h3 style="font-family: var(--font-heading); font-size: 18px; font-weight: 700; color: var(--primary); margin-bottom: 15px; text-align: center;">⚙️ Les Critères Critiques de Pose :</h3>
+            <ul style="padding-left: 20px; display: flex; flex-direction: column; gap: 10px; color: var(--text-muted);">
+              <li><strong>Le pare-vapeur :</strong> Indispensable pour empêcher la condensation de l'humidité intérieure dans l'isolant.</li>
+              <li><strong>L'isolation thermique support :</strong> Placer des plaques isolantes rigides sous la membrane d'étanchéité conformément à la RE2020.</li>
+              <li><strong>L'étanchéité des acrotères :</strong> Remonter la membrane sur les murets de bord (acrotères) et les protéger avec des couvertines alu.</li>
+              <li><strong>Le dimensionnement des EP :</strong> Évacuations pluviales calculées pour absorber les débits torrentiels des violentes pluies d'orage azuréennes.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Right: Form -->
+        <div>
+          <StepsForm />
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,405 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SchemaMarkup from '../components/SchemaMarkup.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import StepsForm from '../components/StepsForm.astro';
+import communes from '../data/communes.json';
+import { generateCommuneContent, getDynamicPrices, getCommuneStaticData } from '../lib/contentEngine';
+import { getSmartNearbyCommunes } from '../lib/geoLinks';
+
+export async function getStaticPaths() {
+  return communes.map((c) => ({
+    params: { commune: c.slug },
+    props: { commune: c },
+  }));
+}
+
+const { commune } = Astro.props;
+const pageType = 'expert';
+const local = generateCommuneContent(commune, pageType);
+const prices = getDynamicPrices(commune);
+const data = getCommuneStaticData(commune);
+const nearby = getSmartNearbyCommunes(commune.slug, communes, 6, 2);
+
+const title = local.title;
+const description = local.introParagraph.slice(0, 155);
+
+const breadcrumbItems = [
+  { label: "Accueil", href: "/" },
+  { label: "Villes Alpes-Maritimes (06)", href: "/communes/" },
+  { label: `Couvreur RGE à ${commune.nom}` }
+];
+
+const year = new Date().getFullYear();
+---
+
+<Layout title={title} description={description}>
+  <SchemaMarkup
+    slot="head"
+    pageUrl={Astro.url.href}
+    pageTitle={title}
+    pageDescription={description}
+    faqItems={local.faqItems}
+    breadcrumbItems={[
+      { label: "Accueil", href: "/" },
+      { label: "Villes Alpes-Maritimes", href: "/communes/" },
+      { label: `Couvreur RGE à ${commune.nom}` }
+    ]}
+    communeName={commune.nom}
+    communeData={commune}
+  />
+
+  <Breadcrumb items={breadcrumbItems} />
+
+  <!-- Hero Section -->
+  <section style="background: linear-gradient(135deg, rgba(15,23,42,0.07) 0%, rgba(190,24,93,0.04) 100%); padding: 55px 0; border-bottom: 1.5px solid var(--border-color);">
+    <div class="container">
+      <div class="two-column-layout">
+        <div style="display: flex; flex-direction: column; justify-content: center;">
+          <div class="badge-pill" style="width: max-content; margin-bottom: 20px;">
+            👷 Artisan Couvreur RGE — {commune.nom} ({commune.codePostal})
+          </div>
+          <h1 style="font-family: var(--font-heading); font-size: 38px; font-weight: 800; color: var(--primary); line-height: 1.2; margin-bottom: 20px;">
+            Expert Couverture à <span style="color: var(--secondary);">{commune.nom}</span> — Devis Gratuit & Décennale
+          </h1>
+          <p style="font-size: 16.5px; line-height: 1.7; color: var(--text); margin-bottom: 25px;">
+            {local.introParagraph}
+          </p>
+
+          <!-- Guarantees pills -->
+          <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 25px;">
+            <span style="background: var(--primary-light); border: 1px solid var(--border-color); padding: 6px 14px; border-radius: 20px; font-size: 13px; font-weight: 700; color: var(--primary);">
+              ✅ Certifié Qualibat RGE
+            </span>
+            <span style="background: var(--primary-light); border: 1px solid var(--border-color); padding: 6px 14px; border-radius: 20px; font-size: 13px; font-weight: 700; color: var(--primary);">
+              🛡️ Garantie Décennale 10 ans
+            </span>
+            <span style="background: var(--primary-light); border: 1px solid var(--border-color); padding: 6px 14px; border-radius: 20px; font-size: 13px; font-weight: 700; color: var(--primary);">
+              👷 {data.rge} artisans disponibles
+            </span>
+            <span style="background: var(--primary-light); border: 1px solid var(--border-color); padding: 6px 14px; border-radius: 20px; font-size: 13px; font-weight: 700; color: var(--primary);">
+              ⏱ Réponse sous {data.delays} jours
+            </span>
+          </div>
+
+          <div style="background: white; border: 1.5px solid var(--border-color); border-left: 4px solid var(--secondary); padding: 18px; border-radius: var(--radius-sm); box-shadow: var(--shadow-sm);">
+            <div style="font-weight: 750; color: var(--secondary); margin-bottom: 6px; font-size: 14px; text-transform: uppercase; letter-spacing: 0.05em;">⚠️ Attention aux Démarcheurs</div>
+            <p style="font-size: 13.5px; color: var(--text-muted); margin: 0; line-height: 1.6;">
+              À {commune.nom} comme dans tout le 06, méfiez-vous des "couvreurs" proposant des devis téléphoniques sans visite, sans SIRET local et sans attestation d'assurance décennale. Exigez systématiquement ces documents avant toute signature. Notre réseau ne regroupe que des artisans vérifiés, enregistrés et assurés.
+            </p>
+          </div>
+        </div>
+        <div>
+          <StepsForm initialZip={commune.codePostal} initialCommune={commune.nom} />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How to Choose a Roofer Section -->
+  <section style="padding: 70px 0; background-color: var(--card-bg);">
+    <div class="container">
+      <div style="text-align: center; max-width: 800px; margin: 0 auto 50px;">
+        <h2 style="font-family: var(--font-heading); font-size: 32px; font-weight: 800; color: var(--primary); margin-bottom: 15px;">
+          Comment Choisir un Couvreur Fiable à {commune.nom} ?
+        </h2>
+        <p style="font-size: 16px; color: var(--text-muted);">
+          Les 5 critères de sélection d'un artisan couvreur qualifié dans les Alpes-Maritimes ({commune.intercommunalite}).
+        </p>
+      </div>
+
+      <div class="grid-3" style="margin-bottom: 40px;">
+        <div class="card" style="border-top: 3px solid var(--secondary);">
+          <div style="font-size: 28px; margin-bottom: 12px;">🏅</div>
+          <h3 style="font-family: var(--font-heading); font-size: 17.5px; font-weight: 700; color: var(--primary); margin-bottom: 10px;">1. Certification RGE Qualibat</h3>
+          <p style="font-size: 13.5px; color: var(--text-muted); line-height: 1.65; margin-bottom: 12px;">
+            La mention <strong>Qualibat 43</strong> (couverture) ou <strong>3112</strong> (charpente bois) certifie les compétences techniques de l'artisan. Elle est indispensable pour que votre projet soit éligible à MaPrimeRénov' et aux CEE.
+          </p>
+          <a href="https://qualibat.com/trouver-une-entreprise/" target="_blank" rel="noopener noreferrer" style="font-size: 12.5px; color: var(--secondary); font-weight: 700; text-decoration: none;">Vérifier sur Qualibat.com ↗</a>
+        </div>
+
+        <div class="card" style="border-top: 3px solid var(--secondary);">
+          <div style="font-size: 28px; margin-bottom: 12px;">🛡️</div>
+          <h3 style="font-family: var(--font-heading); font-size: 17.5px; font-weight: 700; color: var(--primary); margin-bottom: 10px;">2. Garantie Décennale en Cours</h3>
+          <p style="font-size: 13.5px; color: var(--text-muted); line-height: 1.65; margin-bottom: 12px;">
+            L'attestation d'assurance décennale doit mentionner explicitement "Couverture" ou "Étanchéité". Elle doit être en cours de validité à la date d'ouverture du chantier. Sans elle, tout recours est impossible en cas de sinistre.
+          </p>
+          <span style="font-size: 12.5px; color: var(--text-muted); font-weight: 700;">Obligation légale — Article 1792 Code Civil</span>
+        </div>
+
+        <div class="card" style="border-top: 3px solid var(--secondary);">
+          <div style="font-size: 28px; margin-bottom: 12px;">📋</div>
+          <h3 style="font-family: var(--font-heading); font-size: 17.5px; font-weight: 700; color: var(--primary); margin-bottom: 10px;">3. Devis Détaillé & Signé</h3>
+          <p style="font-size: 13.5px; color: var(--text-muted); line-height: 1.65; margin-bottom: 12px;">
+            Un devis sérieux détaille : les matériaux avec références fabricant, les quantités exactes, les normes DTU applicables, le prix unitaire et le total TTC. Fuyez les devis "au forfait" sans détail de fournitures.
+          </p>
+          <span style="font-size: 12.5px; color: var(--text-muted); font-weight: 700;">Exigez 3 devis comparatifs minimum</span>
+        </div>
+
+        <div class="card">
+          <div style="font-size: 28px; margin-bottom: 12px;">📍</div>
+          <h3 style="font-family: var(--font-heading); font-size: 17.5px; font-weight: 700; color: var(--primary); margin-bottom: 10px;">4. Implantation Locale dans le 06</h3>
+          <p style="font-size: 13.5px; color: var(--text-muted); line-height: 1.65; margin: 0;">
+            Un artisan local à {commune.nom} ou à {data.interco} connaît les contraintes spécifiques du bâti azuréen : types de tuiles requis par l'ABF, altitude et zone de vent, accessibilité des ruelles étroites. Vérifiez le SIRET sur Societe.ninja ou Infogreffe.
+          </p>
+        </div>
+
+        <div class="card">
+          <div style="font-size: 28px; margin-bottom: 12px;">⭐</div>
+          <h3 style="font-family: var(--font-heading); font-size: 17.5px; font-weight: 700; color: var(--primary); margin-bottom: 10px;">5. Avis Vérifiés & Références</h3>
+          <p style="font-size: 13.5px; color: var(--text-muted); line-height: 1.65; margin: 0;">
+            Consultez les avis Google My Business (minimum 10 avis, note ≥ 4,5/5), demandez 2 à 3 références de chantiers similaires à {commune.nom} et demandez à visiter un toit récemment réalisé sur votre secteur.
+          </p>
+        </div>
+
+        <div class="card">
+          <div style="font-size: 28px; margin-bottom: 12px;">🚨</div>
+          <h3 style="font-family: var(--font-heading); font-size: 17.5px; font-weight: 700; color: var(--primary); margin-bottom: 10px;">Signes d'Alerte</h3>
+          <p style="font-size: 13.5px; color: var(--text-muted); line-height: 1.65; margin: 0;">
+            Refusez tout artisan qui : se présente sans rendez-vous, exige un acompte de plus de 30% avant démarrage, ne peut pas fournir son attestation décennale, ne mentionne aucune norme dans son devis ou propose un prix très inférieur aux tarifs du marché.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Intervention Process Timeline -->
+  <section style="padding: 60px 0; background-color: var(--primary); color: white;">
+    <div class="container" style="max-width: 900px;">
+      <div style="text-align: center; margin-bottom: 40px;">
+        <h2 style="font-family: var(--font-heading); font-size: 28px; font-weight: 800; color: white; margin-bottom: 12px;">
+          Le Déroulement d'un Chantier de Couverture à {commune.nom}
+        </h2>
+        <p style="color: #94A3B8; font-size: 15px;">De la prise de contact à la réception du chantier — protocole de nos artisans partenaires.</p>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 0;">
+        {[
+          { step: "1", title: "Diagnostic toiture en visio ou sur site", desc: `Évaluation visuelle de l'état de votre toiture à ${commune.nom} : état des tuiles, faîtage, solins, gouttières et charpente. Le diagnostic est offert et sans engagement.`, delay: "J+0 à J+${data.delays}" },
+          { step: "2", title: "Devis détaillé & choix des matériaux", desc: `Rédaction d'un devis complet avec références de matériaux (tuiles NF EN 1304, écran HPV, fixations inox), normes DTU applicables et délai d'exécution. Assistance à la demande d'aides (MaPrimeRénov', CEE).`, delay: `J+${data.delays} à J+${data.delays + 5}` },
+          { step: "3", title: "Déclaration préalable en mairie (si requise)", desc: `Si les travaux modifient l'aspect extérieur du bâtiment à ${commune.nom}, notre équipe vous accompagne dans la préparation du dossier pour la mairie et, si besoin, pour l'avis ABF.`, delay: "J+10 à J+45" },
+          { step: "4", title: "Montage de l'échafaudage & préparation", desc: `Obtention de l'autorisation de voirie, livraison des matériaux, montage d'échafaudage conforme à la norme NF P 93-520. Bâchage de protection des végétaux et des ouvertures.`, delay: "J+1 chantier" },
+          { step: "5", title: "Réfection de couverture & finitions", desc: `Dépose de l'ancienne couverture, traitement charpente si nécessaire, pose de l'écran HPV, litonnage et couverture en tuiles neuves. Réfection des solins, noues, rives et faîtage ventilé à sec.`, delay: "3 à 7 jours ouvrés" },
+          { step: "6", title: "Réception du chantier & garanties", desc: `Visite de réception contradictoire avec vous, remise de la facture avec attestation décennale valide, du procès-verbal de réception et de la notice d'entretien de la toiture.`, delay: "J dernier" }
+        ].map((item, i) => (
+          <div style={`display: flex; gap: 0; ${i < 5 ? 'margin-bottom: 0;' : ''}`}>
+            <div style="display: flex; flex-direction: column; align-items: center; margin-right: 20px;">
+              <div style="width: 42px; height: 42px; background: var(--secondary); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: var(--font-heading); font-size: 18px; font-weight: 800; color: white; flex-shrink: 0;">{item.step}</div>
+              {i < 5 && <div style="width: 2px; flex: 1; background: rgba(255,255,255,0.15); margin: 8px 0; min-height: 30px;"></div>}
+            </div>
+            <div style="padding-bottom: 28px; padding-top: 8px;">
+              <div style="font-family: var(--font-heading); font-size: 16.5px; font-weight: 700; color: white; margin-bottom: 6px;">{item.title}</div>
+              <div style="font-size: 13.5px; color: #94A3B8; line-height: 1.6; margin-bottom: 6px;">{item.desc}</div>
+              <div style="display: inline-block; background: rgba(255,255,255,0.1); padding: 3px 10px; border-radius: 20px; font-size: 12px; color: #CBD5E1; font-weight: 600;">⏱ {item.delay}</div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Climate Context & Local Specifics -->
+  <section style="padding: 70px 0; background-color: var(--card-bg);">
+    <div class="container" style="max-width: 950px;">
+      <div style="text-align: center; margin-bottom: 40px;">
+        <h2 style="font-family: var(--font-heading); font-size: 30px; font-weight: 800; color: var(--primary); margin-bottom: 12px;">
+          Spécificités Locales — Couverture à {commune.nom}
+        </h2>
+      </div>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 25px;">
+        <div style="background: white; border: 1.5px solid var(--border-color); border-radius: var(--radius-sm); padding: 28px; box-shadow: var(--shadow-sm);">
+          <div style="font-size: 28px; margin-bottom: 12px;">🌡️</div>
+          <h3 style="font-family: var(--font-heading); font-size: 18px; font-weight: 700; color: var(--primary); margin-bottom: 10px;">Contexte Climatique</h3>
+          <p style="font-size: 14px; color: var(--text-muted); line-height: 1.65; margin-bottom: 15px;">
+            {local.climateContext}
+          </p>
+          <div style="background: var(--primary-light); border-radius: 6px; padding: 12px; font-size: 13px;">
+            <strong>Zone neige :</strong> {data.snowZone}<br/>
+            <strong>Zone vent :</strong> {data.windZone}
+          </div>
+        </div>
+        <div style="background: white; border: 1.5px solid var(--border-color); border-radius: var(--radius-sm); padding: 28px; box-shadow: var(--shadow-sm);">
+          <div style="font-size: 28px; margin-bottom: 12px;">🏛️</div>
+          <h3 style="font-family: var(--font-heading); font-size: 18px; font-weight: 700; color: var(--primary); margin-bottom: 10px;">Urbanisme & Patrimoine</h3>
+          <p style="font-size: 14px; color: var(--text-muted); line-height: 1.65; margin-bottom: 15px;">
+            {local.abfRegulations}
+          </p>
+          <a href={data.pluLink} target="_blank" rel="noopener noreferrer" style="font-size: 12.5px; color: var(--secondary); font-weight: 700; text-decoration: none;">
+            🗺️ Consulter le PLU de {commune.nom} ↗
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section style="padding: 70px 0; background-color: var(--bg); border-top: 1.5px solid var(--border-color);">
+    <div class="container" style="max-width: 850px;">
+      <div style="text-align: center; margin-bottom: 40px;">
+        <h2 style="font-family: var(--font-heading); font-size: 32px; font-weight: 800; color: var(--primary); margin-bottom: 10px;">
+          FAQ — Artisan Couvreur à {commune.nom}
+        </h2>
+        <p style="font-size: 15.5px; color: var(--text-muted);">
+          Questions pratiques et juridiques des propriétaires du secteur de {commune.nom} ({commune.intercommunalite}).
+        </p>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 18px;">
+        {local.faqItems.map((item) => (
+          <div style="background: white; border: 1.5px solid var(--border-color); border-radius: var(--radius-sm); padding: 24px; box-shadow: var(--shadow-sm);">
+            <h3 style="font-family: var(--font-heading); font-size: 17px; font-weight: 700; color: var(--primary); margin-bottom: 10px; display: flex; gap: 10px;">
+              <span style="color: var(--secondary); flex-shrink: 0;">Q.</span> {item.q}
+            </h3>
+            <p style="font-size: 14.5px; color: var(--text-muted); line-height: 1.65; margin: 0; padding-left: 22px;">
+              {item.a}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Prices & Market Reference -->
+  <section style="padding: 55px 0; background-color: var(--card-bg); border-top: 1.5px solid var(--border-color);">
+    <div class="container" style="max-width: 900px;">
+      <div style="text-align: center; margin-bottom: 35px;">
+        <h2 style="font-family: var(--font-heading); font-size: 26px; font-weight: 800; color: var(--primary); margin-bottom: 10px;">
+          Fourchettes de Prix de Référence à {commune.nom} — {year}
+        </h2>
+        <p style="font-size: 14.5px; color: var(--text-muted);">Ces indicateurs vous permettent d'évaluer si un devis reçu est conforme au marché du secteur {commune.codePostal}.</p>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin-bottom: 25px;">
+        <div style="background: white; border: 1.5px solid var(--border-color); border-radius: var(--radius-sm); padding: 18px; text-align: center;">
+          <div style="font-size: 12px; text-transform: uppercase; font-weight: 700; color: var(--text-muted); margin-bottom: 6px;">Réfection Tuiles Marseille</div>
+          <div class="price-tag" style="font-size: 18px;">{prices.refectionMarseille.min} – {prices.refectionMarseille.max} €/m²</div>
+        </div>
+        <div style="background: white; border: 1.5px solid var(--border-color); border-radius: var(--radius-sm); padding: 18px; text-align: center;">
+          <div style="font-size: 12px; text-transform: uppercase; font-weight: 700; color: var(--text-muted); margin-bottom: 6px;">Démoussage + Hydrofuge</div>
+          <div class="price-tag" style="font-size: 18px;">{prices.demoussageHydro.min} – {prices.demoussageHydro.max} €/m²</div>
+        </div>
+        <div style="background: white; border: 1.5px solid var(--border-color); border-radius: var(--radius-sm); padding: 18px; text-align: center;">
+          <div style="font-size: 12px; text-transform: uppercase; font-weight: 700; color: var(--text-muted); margin-bottom: 6px;">Réparation fuite urgence</div>
+          <div class="price-tag" style="font-size: 18px;">{prices.reparationFuite.min} – {prices.reparationFuite.max} €</div>
+        </div>
+        <div style="background: white; border: 1.5px solid var(--border-color); border-radius: var(--radius-sm); padding: 18px; text-align: center;">
+          <div style="font-size: 12px; text-transform: uppercase; font-weight: 700; color: var(--text-muted); margin-bottom: 6px;">Faîtage ventilé à sec</div>
+          <div class="price-tag" style="font-size: 18px;">{prices.faitageMl.min} – {prices.faitageMl.max} €/m.l.</div>
+        </div>
+        <div style="background: white; border: 1.5px solid var(--border-color); border-radius: var(--radius-sm); padding: 18px; text-align: center;">
+          <div style="font-size: 12px; text-transform: uppercase; font-weight: 700; color: var(--text-muted); margin-bottom: 6px;">Gouttière Cuivre posée</div>
+          <div class="price-tag" style="font-size: 18px;">{prices.zinguerieMl.min} – {prices.zinguerieMl.max} €/m.l.</div>
+        </div>
+        <div style="background: white; border: 1.5px solid var(--border-color); border-radius: var(--radius-sm); padding: 18px; text-align: center;">
+          <div style="font-size: 12px; text-transform: uppercase; font-weight: 700; color: var(--text-muted); margin-bottom: 6px;">Isolation Sarking R≥6</div>
+          <div class="price-tag" style="font-size: 18px;">{prices.isolationSarking.min} – {prices.isolationSarking.max} €/m²</div>
+        </div>
+      </div>
+      <p style="text-align: center; font-size: 12.5px; color: var(--text-muted);">
+        * Fourchettes indicatives TTC — marché des Alpes-Maritimes, secteur {commune.nom} ({commune.codePostal}), {year}.
+      </p>
+      <div style="text-align: center; margin-top: 25px;">
+        <a href="/devis/" class="btn-primary" style="display: inline-block;">📋 Obtenir 3 Devis Gratuits &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Official Verification Links -->
+  <section style="padding: 50px 0; background-color: #FAF9F6; border-top: 1.5px solid var(--border-color);">
+    <div class="container" style="max-width: 900px;">
+      <h3 style="font-family: var(--font-heading); font-size: 20px; font-weight: 700; color: var(--primary); margin-bottom: 25px; text-align: center;">
+        🔍 Vérifier & Sélectionner votre Couvreur à {commune.nom}
+      </h3>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px;">
+        <a href="https://qualibat.com/trouver-une-entreprise/" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 12px; background: white; border: 1.5px solid var(--border-color); padding: 14px 18px; border-radius: var(--radius-sm); text-decoration: none;">
+          <span style="font-size: 22px;">🏅</span>
+          <div>
+            <div style="font-weight: 700; color: var(--primary); font-size: 13.5px;">Qualibat — RGE</div>
+            <div style="color: var(--text-muted); font-size: 12px;">Annuaire officiel qualifications</div>
+          </div>
+        </a>
+        <a href="https://www.societe.ninja" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 12px; background: white; border: 1.5px solid var(--border-color); padding: 14px 18px; border-radius: var(--radius-sm); text-decoration: none;">
+          <span style="font-size: 22px;">🔎</span>
+          <div>
+            <div style="font-weight: 700; color: var(--primary); font-size: 13.5px;">Societe.ninja</div>
+            <div style="color: var(--text-muted); font-size: 12px;">Vérifier le SIRET de l'artisan</div>
+          </div>
+        </a>
+        <a href="https://www.agences-qualite-construction.fr" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 12px; background: white; border: 1.5px solid var(--border-color); padding: 14px 18px; border-radius: var(--radius-sm); text-decoration: none;">
+          <span style="font-size: 22px;">🏗️</span>
+          <div>
+            <div style="font-weight: 700; color: var(--primary); font-size: 13.5px;">AQC — Qualité Constructeur</div>
+            <div style="color: var(--text-muted); font-size: 12px;">Signaler un désordre de construction</div>
+          </div>
+        </a>
+        <a href={data.anahLink} target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 12px; background: white; border: 1.5px solid var(--border-color); padding: 14px 18px; border-radius: var(--radius-sm); text-decoration: none;">
+          <span style="font-size: 22px;">💶</span>
+          <div>
+            <div style="font-weight: 700; color: var(--primary); font-size: 13.5px;">MaPrimeRénov' {year}</div>
+            <div style="color: var(--text-muted); font-size: 12px;">Aides isolation & couverture</div>
+          </div>
+        </a>
+        <a href="https://www.service-public.fr/particuliers/vosdroits/F1352" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 12px; background: white; border: 1.5px solid var(--border-color); padding: 14px 18px; border-radius: var(--radius-sm); text-decoration: none;">
+          <span style="font-size: 22px;">📋</span>
+          <div>
+            <div style="font-weight: 700; color: var(--primary); font-size: 13.5px;">Déclaration de Travaux</div>
+            <div style="color: var(--text-muted); font-size: 12px;">Guide officiel Service-Public.fr</div>
+          </div>
+        </a>
+        <a href={data.inseeLink} target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 12px; background: white; border: 1.5px solid var(--border-color); padding: 14px 18px; border-radius: var(--radius-sm); text-decoration: none;">
+          <span style="font-size: 22px;">📊</span>
+          <div>
+            <div style="font-weight: 700; color: var(--primary); font-size: 13.5px;">INSEE — {commune.nom}</div>
+            <div style="color: var(--text-muted); font-size: 12px;">Données officielles de la commune</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cross-links & Nearby -->
+  <section style="padding: 50px 0; background-color: var(--card-bg); border-top: 1.5px solid var(--border-color);">
+    <div class="container" style="max-width: 900px;">
+      <h3 style="font-family: var(--font-heading); font-size: 20px; font-weight: 700; color: var(--primary); margin-bottom: 25px; text-align: center;">
+        🔗 Autres Services Couverture à {commune.nom}
+      </h3>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin-bottom: 30px;">
+        <a href={`/renovation-toiture-${commune.slug}/`} style="display: flex; align-items: center; gap: 14px; background: white; border: 1.5px solid var(--secondary); padding: 16px 20px; border-radius: var(--radius-sm); text-decoration: none;">
+          <span style="font-size: 26px;">🏠</span>
+          <div>
+            <div style="font-weight: 700; color: var(--secondary); font-size: 14px;">Rénovation de Toiture</div>
+            <div style="color: var(--text-muted); font-size: 12.5px;">Réfection tuiles — {commune.nom}</div>
+          </div>
+        </a>
+        <a href={`/toiture-villa-${commune.slug}/`} style="display: flex; align-items: center; gap: 14px; background: white; border: 1.5px solid var(--secondary); padding: 16px 20px; border-radius: var(--radius-sm); text-decoration: none;">
+          <span style="font-size: 26px;">🏡</span>
+          <div>
+            <div style="font-weight: 700; color: var(--secondary); font-size: 14px;">Toiture Villa Standing</div>
+            <div style="color: var(--text-muted); font-size: 12.5px;">Étanchéité EPDM & Sarking — {commune.nom}</div>
+          </div>
+        </a>
+      </div>
+
+      <h4 style="font-family: var(--font-heading); font-size: 17px; font-weight: 700; color: var(--primary); text-align: center; margin-bottom: 20px;">
+        📍 Couvreurs Qualifiés à Proximité de {commune.nom}
+      </h4>
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px;">
+        {nearby.map((n) => (
+          <a href={`/expert-couverture-${n.slug}/`} style="background: white; border: 1.5px solid var(--border-color); padding: 8px 16px; border-radius: 30px; font-size: 13px; font-weight: 700; color: var(--primary); text-decoration: none;">
+            👷 Couvreur {n.nom} ({n.codePostal})
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  th, td {
+    border-bottom: 1px solid var(--border-color);
+  }
+  @media (max-width: 768px) {
+    div[style*="grid-template-columns: 1fr 1fr"] {
+      grid-template-columns: 1fr !important;
+    }
+  }
+</style>

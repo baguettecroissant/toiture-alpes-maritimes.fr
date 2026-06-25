@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Exclude utility pages from indexing
+Disallow: /confirmation/
+Disallow: /mentions-legales/
+Disallow: /politique-confidentialite/
+
+# Allow all crawlers on main content
+Sitemap: https://toiture-des-alpes-maritimes.fr/sitemap-index.xml

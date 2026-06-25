@@ -1,0 +1,81 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import StepsForm from '../components/StepsForm.astro';
+
+const title = "Guide Toiture Littoral & Embruns : Matériaux et Protection dans les Alpes-Maritimes (06)";
+const description = "Comment protéger la toiture et la zinguerie de votre villa en bord de Méditerranée contre la corrosion saline et les tempêtes littorales.";
+
+const breadcrumbItems = [
+  { label: "Accueil", href: "/" },
+  { label: "Guide Toiture & Embruns" }
+];
+---
+
+<Layout title={title} description={description}>
+  <Breadcrumb items={breadcrumbItems} />
+
+  <section style="padding: 50px 0 80px; background-color: var(--card-bg);">
+    <div class="container">
+      <div style="text-align: center; max-width: 800px; margin: 0 auto 50px;">
+        <span class="badge-pill" style="margin-bottom: 15px; background: rgba(190, 24, 93, 0.1); color: var(--secondary); border-color: var(--secondary);">🌊 Alerte Embruns Riviera</span>
+        <h1 style="font-family: var(--font-heading); font-size: 36px; font-weight: 800; color: var(--primary); margin-bottom: 15px;">
+          Toiture en Bord de Mer : Comment Lutter Contre le Sel ?
+        </h1>
+        <p style="font-size: 16.5px; color: var(--text-muted); line-height: 1.6;">
+          Sur le littoral des Alpes-Maritimes (06), la proximité maritime expose les toitures de villas à des agressions constantes. Le sel transporté par le vent marin s'infiltre partout, rongeant les métaux et fragilisant les fixations de tuiles.
+        </p>
+      </div>
+
+      <div class="two-column-layout" style="align-items: start;">
+        <!-- Left: Technical Article -->
+        <div style="font-size: 15px; color: var(--text); line-height: 1.7; display: flex; flex-direction: column; gap: 25px;">
+          <div style="border-radius: var(--radius-md); overflow: hidden; border: 1.5px solid var(--border-color); box-shadow: var(--shadow-sm); margin-bottom: 5px;">
+            <img src="/images/guide-embruns-corrosion.png" alt="Embruns marins s'écrasant près de toitures de villas sur la Côte d'Azur" style="width: 100%; height: 240px; object-fit: cover;" />
+          </div>
+
+          <div style="background: var(--primary-light); border: 1.5px solid var(--border-color); padding: 25px; border-radius: var(--radius-sm);">
+            <h3 style="font-family: var(--font-heading); font-weight: 700; color: var(--primary); margin-bottom: 10px; font-size: 18px;">💡 Le danger de la corrosion saline</h3>
+            <p style="margin: 0; color: var(--text-muted);">
+              Les cristaux de sel déposés par les entrées maritimes s'accumulent sur les métaux. En présence d'humidité, ils forment un électrolyte puissant qui accélère l'oxydation galvanique du zinc brut classique. Ce phénomène peut percer des chéneaux en moins de 10 ans et rompre des fixations de tuiles non traitées.
+            </p>
+          </div>
+
+          <div>
+            <h3 style="font-family: var(--font-heading); font-size: 22px; font-weight: 800; color: var(--primary); margin-bottom: 15px;">Les 3 Points Vulnérables d'une Toiture de Bord de Mer</h3>
+            
+            <h4 style="font-family: var(--font-heading); font-size: 17px; font-weight: 750; color: var(--primary); margin-top: 15px; margin-bottom: 8px;">1. Les gouttières et descentes en zinc</h4>
+            <p style="color: var(--text-muted); margin-bottom: 15px;">
+              En zone côtière (Nice, Cannes, Antibes), le zinc standard ternit, devient rugueux et s'effrite rapidement. Les couvreurs recommandent exclusivement l'usage de gouttières et tuyaux de descente en cuivre (qui se protège par sa propre patine verte) ou en acier inoxydable 316L (inox de nuance marine).
+            </p>
+            
+            <h4 style="font-family: var(--font-heading); font-size: 17px; font-weight: 750; color: var(--primary); margin-bottom: 8px;">2. Les crochets de tuiles non conformes</h4>
+            <p style="color: var(--text-muted); margin-bottom: 15px;">
+              Les crochets en acier galvanisé de bas de gamme rouillent en quelques saisons. Sous l'action du vent marin fort, la fixation cède, provoquant le glissement ou l'arrachement des tuiles de Marseille ou des tuiles canal. Le DTU 40.21 impose l'utilisation de crochets de tuiles en acier inoxydable en bord de mer.
+            </p>
+
+            <h4 style="font-family: var(--font-heading); font-size: 17px; font-weight: 750; color: var(--primary); margin-bottom: 8px;">3. Les membranes d'étanchéité de toits plats</h4>
+            <p style="color: var(--text-muted); margin-bottom: 15px;">
+              Les toitures terrasses des villas contemporaines subissent un rayonnement solaire extrême et de fortes températures. Les membranes d'étanchéité bas de gamme cuisent au soleil et craquellent sous l'effet du sel. L'application de membranes synthétiques PVC-P ou en caoutchouc EPDM hautement résistantes aux UV et traitées anti-sel est obligatoire.
+            </p>
+          </div>
+
+          <div style="background: white; border: 1.5px solid var(--border-color); border-radius: var(--radius-sm); padding: 30px; box-shadow: var(--shadow-sm);">
+            <h3 style="font-family: var(--font-heading); font-size: 18px; font-weight: 700; color: var(--primary); margin-bottom: 15px; text-align: center;">🛠️ Actions de Protection Recommandées :</h3>
+            <ul style="padding-left: 20px; display: flex; flex-direction: column; gap: 10px; color: var(--text-muted);">
+              <li><strong>Rinçage périodique anti-sel :</strong> Un nettoyage annuel à l'eau claire élimine le dépôt salin abrasif sur les toits peu pentus.</li>
+              <li><strong>Zinguerie en cuivre ou inox :</strong> Le seul choix durable pour éviter le perçage prématuré des chéneaux.</li>
+              <li><strong>Traitement Hydrofuge perlant :</strong> Imperméabilise les tuiles terre cuite pour empêcher l'humidité saline de s'incruster.</li>
+              <li><strong>Contrôle des fixations :</strong> Inspection des crochets de tuiles par un artisan couvreur assuré en décennale.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Right: Form -->
+        <div>
+          <StepsForm />
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

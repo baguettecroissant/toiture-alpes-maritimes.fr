@@ -1,0 +1,414 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SchemaMarkup from '../components/SchemaMarkup.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import StepsForm from '../components/StepsForm.astro';
+import communes from '../data/communes.json';
+import { generateCommuneContent, getDynamicPrices, getCommuneStaticData } from '../lib/contentEngine';
+import { getSmartNearbyCommunes } from '../lib/geoLinks';
+
+export async function getStaticPaths() {
+  return communes.map((c) => ({
+    params: { commune: c.slug },
+    props: { commune: c },
+  }));
+}
+
+const { commune } = Astro.props;
+const pageType = 'villa';
+const local = generateCommuneContent(commune, pageType);
+const prices = getDynamicPrices(commune);
+const data = getCommuneStaticData(commune);
+const nearby = getSmartNearbyCommunes(commune.slug, communes, 6, 2);
+
+const title = local.title;
+const description = local.introParagraph.slice(0, 155);
+
+const breadcrumbItems = [
+  { label: "Accueil", href: "/" },
+  { label: "Villes Alpes-Maritimes (06)", href: "/communes/" },
+  { label: `Toiture Villa à ${commune.nom}` }
+];
+
+const year = new Date().getFullYear();
+---
+
+<Layout title={title} description={description}>
+  <SchemaMarkup
+    slot="head"
+    pageUrl={Astro.url.href}
+    pageTitle={title}
+    pageDescription={description}
+    faqItems={local.faqItems}
+    breadcrumbItems={[
+      { label: "Accueil", href: "/" },
+      { label: "Villes Alpes-Maritimes", href: "/communes/" },
+      { label: `Toiture Villa à ${commune.nom}` }
+    ]}
+    communeName={commune.nom}
+    communeData={commune}
+  />
+
+  <Breadcrumb items={breadcrumbItems} />
+
+  <!-- Hero Section -->
+  <section style="background: linear-gradient(135deg, rgba(15,23,42,0.07) 0%, rgba(190,24,93,0.04) 100%); padding: 55px 0; border-bottom: 1.5px solid var(--border-color);">
+    <div class="container">
+      <div class="two-column-layout">
+        <div style="display: flex; flex-direction: column; justify-content: center;">
+          <div class="badge-pill" style="width: max-content; margin-bottom: 20px;">
+            🏡 Toiture Terrasse & Villa de Standing — {commune.nom}
+          </div>
+          <h1 style="font-family: var(--font-heading); font-size: 38px; font-weight: 800; color: var(--primary); line-height: 1.2; margin-bottom: 20px;">
+            Toiture Villa & Étanchéité EPDM à <span style="color: var(--secondary);">{commune.nom}</span> ({commune.codePostal})
+          </h1>
+          <p style="font-size: 16.5px; line-height: 1.7; color: var(--text); margin-bottom: 25px;">
+            {local.introParagraph}
+          </p>
+
+          <!-- Key specs pills -->
+          <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 25px;">
+            <span style="background: var(--primary-light); border: 1px solid var(--border-color); padding: 6px 14px; border-radius: 20px; font-size: 13px; font-weight: 700; color: var(--primary);">
+              🏗️ DTU 43.1 — Étanchéité toit terrasse
+            </span>
+            <span style="background: var(--primary-light); border: 1px solid var(--border-color); padding: 6px 14px; border-radius: 20px; font-size: 13px; font-weight: 700; color: var(--primary);">
+              🌡️ R≥{data.rValueReq} requis
+            </span>
+            <span style="background: var(--primary-light); border: 1px solid var(--border-color); padding: 6px 14px; border-radius: 20px; font-size: 13px; font-weight: 700; color: var(--primary);">
+              👷 {data.rge} entreprises qualifiées locales
+            </span>
+            <span style="background: var(--primary-light); border: 1px solid var(--border-color); padding: 6px 14px; border-radius: 20px; font-size: 13px; font-weight: 700; color: var(--primary);">
+              ⏱ Devis sous {data.delays} jours
+            </span>
+          </div>
+
+          <div style="background: white; border: 1.5px solid var(--border-color); border-left: 4px solid var(--secondary); padding: 18px; border-radius: var(--radius-sm); box-shadow: var(--shadow-sm);">
+            <div style="font-weight: 750; color: var(--secondary); margin-bottom: 6px; font-size: 14px; text-transform: uppercase; letter-spacing: 0.05em;">🔬 Note Technique Étancheur</div>
+            <p style="font-size: 13.5px; color: var(--text-muted); margin: 0; line-height: 1.6;">
+              Pour les résidences contemporaines de {commune.nom}, l'isolation thermique inversée (ITI) sous étanchéité prévient les fissurations du béton liées aux chocs thermiques solaires (Δt pouvant dépasser 60°C entre l'ombre et le plein soleil de juillet). Le procédé est conforme au DTU 43.1 et aux préconisations du CSTB pour les toitures terrasses en zone climatique méditerranéenne.
+            </p>
+          </div>
+        </div>
+        <div>
+          <StepsForm initialZip={commune.codePostal} initialCommune={commune.nom} />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Etanchéité System Comparison -->
+  <section style="padding: 70px 0; background-color: var(--card-bg);">
+    <div class="container">
+      <div style="text-align: center; max-width: 800px; margin: 0 auto 50px;">
+        <h2 style="font-family: var(--font-heading); font-size: 32px; font-weight: 800; color: var(--primary); margin-bottom: 15px;">
+          Systèmes d'Étanchéité pour Villas à {commune.nom}
+        </h2>
+        <p style="font-size: 16px; color: var(--text-muted);">
+          Comparatif des membranes d'étanchéité adaptées aux toits terrasses des Alpes-Maritimes ({data.geoZone === 'littoral-riviera' ? 'zone littorale marine' : 'zone méditerranéenne intérieure'}).
+        </p>
+      </div>
+
+      <div class="grid-3">
+        <div class="card" style="border-top: 3px solid var(--secondary);">
+          <div style="font-size: 28px; margin-bottom: 12px;">🛡️</div>
+          <h3 style="font-family: var(--font-heading); font-size: 18px; font-weight: 700; color: var(--primary); margin-bottom: 10px;">Membrane EPDM</h3>
+          <p style="font-size: 13.5px; color: var(--text-muted); line-height: 1.65; margin-bottom: 14px;">
+            Durabilité ≥ 50 ans. Insensible aux UV et au sel marin. Pose en nappe monobloc sans joints. Élasticité de –40°C à +120°C. Garantie fabricant 20 ans. Idéale pour {data.geoZone === 'littoral-riviera' ? 'la zone littorale de ' + commune.nom : commune.nom}. Conforme DTU 43.1 et AT spécifique CSTB.
+          </p>
+          <div style="font-size: 12px; color: var(--secondary); font-weight: 700;">⭐ Recommandé bord de mer</div>
+        </div>
+
+        <div class="card">
+          <div style="font-size: 28px; margin-bottom: 12px;">🔄</div>
+          <h3 style="font-family: var(--font-heading); font-size: 18px; font-weight: 700; color: var(--primary); margin-bottom: 10px;">Bicouche Bitumineux SBS</h3>
+          <p style="font-size: 13.5px; color: var(--text-muted); line-height: 1.65; margin-bottom: 14px;">
+            Solution éprouvée 30 ans. Deux nappes soudées au chalumeau. Haute résistance à la pression de l'eau. Compatible avec les substrats béton existants. Disponible avec finition ardoisée ou aluminium de protection thermique. Conforme DTU 43.1 §6.
+          </p>
+          <div style="font-size: 12px; color: var(--text-muted); font-weight: 700;">✅ Standard terrasse accessible</div>
+        </div>
+
+        <div class="card">
+          <div style="font-size: 28px; margin-bottom: 12px;">🌿</div>
+          <h3 style="font-family: var(--font-heading); font-size: 18px; font-weight: 700; color: var(--primary); margin-bottom: 10px;">EPDM + Végétalisation</h3>
+          <p style="font-size: 13.5px; color: var(--text-muted); line-height: 1.65; margin-bottom: 14px;">
+            Étanchéité EPDM + couche drainante + substrat léger + sédums méditerranéens. Régulation thermique par évapotranspiration naturelle (–5°C en été). Retient jusqu'à 80 % des eaux de pluie. Certification FLL (norme de référence européenne). Compatible PLU verts de la Riviera.
+          </p>
+          <div style="font-size: 12px; color: var(--text-muted); font-weight: 700;">🌱 Option PLU écologique</div>
+        </div>
+      </div>
+
+      <!-- Sarking Technical Detail -->
+      <div style="margin-top: 50px; background: white; border: 1.5px solid var(--border-color); border-radius: var(--radius-sm); padding: 30px; box-shadow: var(--shadow-sm);">
+        <h3 style="font-family: var(--font-heading); font-size: 20px; font-weight: 700; color: var(--primary); margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
+          🌲 Isolation Sarking par l'Extérieur — Solution Premium pour {commune.nom}
+        </h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px;">
+          <div>
+            <div style="font-size: 13px; font-weight: 700; color: var(--primary); margin-bottom: 6px; text-transform: uppercase;">Matériaux disponibles</div>
+            <ul style="font-size: 13.5px; color: var(--text-muted); line-height: 1.7; padding-left: 18px; margin: 0;">
+              <li>Fibre de bois haute densité (λ = 0,036 W/m.K) — Déphasage 10-12h</li>
+              <li>PIR / Polyuréthane (λ = 0,022 W/m.K) — Performance maximale</li>
+              <li>Laine de roche (λ = 0,040 W/m.K) — Résistance au feu A1</li>
+            </ul>
+          </div>
+          <div>
+            <div style="font-size: 13px; font-weight: 700; color: var(--primary); margin-bottom: 6px; text-transform: uppercase;">Avantages pour {commune.nom}</div>
+            <ul style="font-size: 13.5px; color: var(--text-muted); line-height: 1.7; padding-left: 18px; margin: 0;">
+              <li>100% des ponts thermiques éliminés</li>
+              <li>Charpente apparente préservée à l'intérieur</li>
+              <li>Éligible MaPrimeRénov' + CEE + TVA 5,5%</li>
+              <li>R ≥ {data.rValueReq} conforme RE2020</li>
+            </ul>
+          </div>
+          <div>
+            <div style="font-size: 13px; font-weight: 700; color: var(--primary); margin-bottom: 6px; text-transform: uppercase;">Normes applicables</div>
+            <ul style="font-size: 13.5px; color: var(--text-muted); line-height: 1.7; padding-left: 18px; margin: 0;">
+              <li>CPT 3651 (Cahier CSTB sarking)</li>
+              <li>DTU 40.21 §4 (couverture en tuile)</li>
+              <li>RE2020 (bâtiments neufs)</li>
+              <li>RT-Existant (rénovation)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Prices Section -->
+  <section style="padding: 70px 0; background-color: #FAF9F6; border-top: 1.5px solid var(--border-color); border-bottom: 1.5px solid var(--border-color);">
+    <div class="container">
+      <div style="text-align: center; max-width: 800px; margin: 0 auto 45px;">
+        <h2 style="font-family: var(--font-heading); font-size: 32px; font-weight: 800; color: var(--primary); margin-bottom: 12px;">
+          Tarifs Étanchéité & Toiture Villa à {commune.nom} — {year}
+        </h2>
+        <p style="font-size: 15.5px; color: var(--text-muted);">
+          Prix moyens TTC observés pour les résidences de standing des Alpes-Maritimes. Valables secteur {commune.nom} ({commune.codePostal}).
+        </p>
+      </div>
+
+      <div style="max-width: 900px; margin: 0 auto; overflow-x: auto; background: white; border: 1.5px solid var(--border-color); border-radius: var(--radius-sm); box-shadow: var(--shadow-sm);">
+        <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 14.5px;">
+          <thead>
+            <tr style="background: var(--primary); color: white;">
+              <th style="padding: 16px 20px; font-family: var(--font-heading); font-weight: 700;">Type de Prestation</th>
+              <th style="padding: 16px 20px; font-family: var(--font-heading); font-weight: 700;">Fourchette {year}</th>
+              <th style="padding: 16px 20px; font-family: var(--font-heading); font-weight: 700;">Unité</th>
+              <th style="padding: 16px 20px; font-family: var(--font-heading); font-weight: 700;">Norme</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom: 1px solid var(--border-color);">
+              <td style="padding: 15px 20px; font-weight: bold; color: var(--primary);">Étanchéité Toit Terrasse EPDM monocouche</td>
+              <td style="padding: 15px 20px;"><span class="price-tag">{prices.refectionTerrasse.min} – {prices.refectionTerrasse.max} €</span></td>
+              <td style="padding: 15px 20px; color: var(--text-muted);">/ m²</td>
+              <td style="padding: 15px 20px; color: var(--text-muted); font-size: 13px;">DTU 43.1 — AT CSTB</td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--border-color); background: var(--primary-light);">
+              <td style="padding: 15px 20px; font-weight: bold; color: var(--primary);">Étanchéité Bicouche Bitumineux SBS</td>
+              <td style="padding: 15px 20px;"><span class="price-tag">65 – 120 €</span></td>
+              <td style="padding: 15px 20px; color: var(--text-muted);">/ m²</td>
+              <td style="padding: 15px 20px; color: var(--text-muted); font-size: 13px;">DTU 43.1 §6</td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--border-color);">
+              <td style="padding: 15px 20px; font-weight: bold; color: var(--primary);">Végétalisation toit terrasse (extensive sédums)</td>
+              <td style="padding: 15px 20px;"><span class="price-tag">100 – 180 €</span></td>
+              <td style="padding: 15px 20px; color: var(--text-muted);">/ m²</td>
+              <td style="padding: 15px 20px; color: var(--text-muted); font-size: 13px;">Norme FLL</td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--border-color); background: var(--primary-light);">
+              <td style="padding: 15px 20px; font-weight: bold; color: var(--primary);">Isolation Sarking fibre de bois R≥6</td>
+              <td style="padding: 15px 20px;"><span class="price-tag">{prices.isolationSarking.min} – {prices.isolationSarking.max} €</span></td>
+              <td style="padding: 15px 20px; color: var(--text-muted);">/ m² (aide RGE)</td>
+              <td style="padding: 15px 20px; color: var(--text-muted); font-size: 13px;">CPT 3651 — RE2020</td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--border-color);">
+              <td style="padding: 15px 20px; font-weight: bold; color: var(--primary);">Zinguerie cuivre ou inox 316L sur-mesure</td>
+              <td style="padding: 15px 20px;"><span class="price-tag">{prices.zinguerieMl.min} – {prices.zinguerieMl.max} €</span></td>
+              <td style="padding: 15px 20px; color: var(--text-muted);">/ m.l.</td>
+              <td style="padding: 15px 20px; color: var(--text-muted); font-size: 13px;">DTU 40.5 — NF EN 612</td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--border-color); background: var(--primary-light);">
+              <td style="padding: 15px 20px; font-weight: bold; color: var(--primary);">Charpente standing (Red Cedar / Douglas)</td>
+              <td style="padding: 15px 20px;"><span class="price-tag">{prices.charpenteExotique.min} – {prices.charpenteExotique.max} €</span></td>
+              <td style="padding: 15px 20px; color: var(--text-muted);">/ m²</td>
+              <td style="padding: 15px 20px; color: var(--text-muted); font-size: 13px;">CB71 NF EN 338</td>
+            </tr>
+            <tr style="background: var(--primary-light);">
+              <td style="padding: 15px 20px; font-weight: bold; color: var(--primary);">Réfection complète villa clés en main</td>
+              <td style="padding: 15px 20px;"><span class="price-tag">{prices.refectionVilla.min} – {prices.refectionVilla.max} €</span></td>
+              <td style="padding: 15px 20px; color: var(--text-muted);">/ m²</td>
+              <td style="padding: 15px 20px; color: var(--text-muted); font-size: 13px;">Décennale obligatoire</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="text-align: center; margin-top: 18px; font-size: 12.5px; color: var(--text-muted);">
+        * Prix indicatifs TTC pour le secteur de {commune.nom}. Les tarifs définitifs dépendent du type de membrane, de la configuration de la dalle et des contraintes de mise en œuvre. Valable {year}.
+      </p>
+      <div style="text-align: center; margin-top: 30px;">
+        <a href="/devis/" class="btn-primary" style="display: inline-block;">📋 Demander une étude technique &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Energy & Real Estate -->
+  <section style="padding: 70px 0; background-color: var(--card-bg);">
+    <div class="container" style="max-width: 950px;">
+      <div style="text-align: center; margin-bottom: 40px;">
+        <h2 style="font-family: var(--font-heading); font-size: 30px; font-weight: 800; color: var(--primary); margin-bottom: 12px;">
+          Investissement & Valorisation — Villa à {commune.nom}
+        </h2>
+      </div>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 25px;">
+        <div style="background: white; border: 1.5px solid var(--border-color); border-radius: var(--radius-sm); padding: 28px; box-shadow: var(--shadow-sm);">
+          <div style="font-size: 32px; margin-bottom: 14px;">🏰</div>
+          <h3 style="font-family: var(--font-heading); font-size: 18px; font-weight: 700; color: var(--primary); margin-bottom: 10px;">Valorisation de Votre Patrimoine</h3>
+          <p style="font-size: 14px; color: var(--text-muted); line-height: 1.65; margin-bottom: 15px;">
+            {local.realEstateInsight}
+          </p>
+          <div style="background: var(--primary-light); border-radius: var(--radius-sm); padding: 14px; font-size: 13px; color: var(--primary); font-weight: 700;">
+            📍 Marché : {commune.intercommunalite}
+          </div>
+        </div>
+        <div style="background: white; border: 1.5px solid var(--border-color); border-radius: var(--radius-sm); padding: 28px; box-shadow: var(--shadow-sm);">
+          <div style="font-size: 32px; margin-bottom: 14px;">⚡</div>
+          <h3 style="font-family: var(--font-heading); font-size: 18px; font-weight: 700; color: var(--primary); margin-bottom: 10px;">Confort Thermique & DPE</h3>
+          <p style="font-size: 14px; color: var(--text-muted); line-height: 1.65; margin-bottom: 15px;">
+            {local.energyProfileText}
+          </p>
+          <div style="background: var(--primary-light); border-radius: var(--radius-sm); padding: 14px; font-size: 13px; color: var(--primary); font-weight: 700;">
+            🎯 Objectif isolation : R ≥ {data.rValueReq}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section style="padding: 70px 0; background-color: var(--bg); border-top: 1.5px solid var(--border-color);">
+    <div class="container" style="max-width: 850px;">
+      <div style="text-align: center; margin-bottom: 40px;">
+        <h2 style="font-family: var(--font-heading); font-size: 32px; font-weight: 800; color: var(--primary); margin-bottom: 10px;">
+          FAQ — Étanchéité & Toiture Villa à {commune.nom}
+        </h2>
+        <p style="font-size: 15.5px; color: var(--text-muted);">
+          Questions techniques des propriétaires de villas et résidences de {commune.nom} ({commune.intercommunalite}).
+        </p>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 18px;">
+        {local.faqItems.map((item) => (
+          <div style="background: white; border: 1.5px solid var(--border-color); border-radius: var(--radius-sm); padding: 24px; box-shadow: var(--shadow-sm);">
+            <h3 style="font-family: var(--font-heading); font-size: 17px; font-weight: 700; color: var(--primary); margin-bottom: 10px; display: flex; gap: 10px;">
+              <span style="color: var(--secondary); flex-shrink: 0;">Q.</span> {item.q}
+            </h3>
+            <p style="font-size: 14.5px; color: var(--text-muted); line-height: 1.65; margin: 0; padding-left: 22px;">
+              {item.a}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- External Resources -->
+  <section style="padding: 50px 0; background-color: var(--card-bg); border-top: 1.5px solid var(--border-color);">
+    <div class="container" style="max-width: 900px;">
+      <h3 style="font-family: var(--font-heading); font-size: 20px; font-weight: 700; color: var(--primary); margin-bottom: 25px; text-align: center;">
+        📚 Références Techniques & Ressources Officielles
+      </h3>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px;">
+        <a href="https://www.cstb.fr/fr/" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 12px; background: white; border: 1.5px solid var(--border-color); padding: 14px 18px; border-radius: var(--radius-sm); text-decoration: none;">
+          <span style="font-size: 22px;">🏗️</span>
+          <div>
+            <div style="font-weight: 700; color: var(--primary); font-size: 13.5px;">CSTB — DTU 43.1</div>
+            <div style="color: var(--text-muted); font-size: 12px;">Référentiel étanchéité toit terrasse</div>
+          </div>
+        </a>
+        <a href={data.anahLink} target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 12px; background: white; border: 1.5px solid var(--border-color); padding: 14px 18px; border-radius: var(--radius-sm); text-decoration: none;">
+          <span style="font-size: 22px;">💶</span>
+          <div>
+            <div style="font-weight: 700; color: var(--primary); font-size: 13.5px;">MaPrimeRénov' {year}</div>
+            <div style="color: var(--text-muted); font-size: 12px;">Aides isolation & sarking</div>
+          </div>
+        </a>
+        <a href="https://qualibat.com/trouver-une-entreprise/" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 12px; background: white; border: 1.5px solid var(--border-color); padding: 14px 18px; border-radius: var(--radius-sm); text-decoration: none;">
+          <span style="font-size: 22px;">🔍</span>
+          <div>
+            <div style="font-weight: 700; color: var(--primary); font-size: 13.5px;">Qualibat — RGE</div>
+            <div style="color: var(--text-muted); font-size: 12px;">Vérifier la qualification étancheur</div>
+          </div>
+        </a>
+        <a href={data.pluLink} target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 12px; background: white; border: 1.5px solid var(--border-color); padding: 14px 18px; border-radius: var(--radius-sm); text-decoration: none;">
+          <span style="font-size: 22px;">🗺️</span>
+          <div>
+            <div style="font-weight: 700; color: var(--primary); font-size: 13.5px;">PLU — {commune.nom}</div>
+            <div style="color: var(--text-muted); font-size: 12px;">Règles d'urbanisme locales</div>
+          </div>
+        </a>
+        <a href="https://www.service-public.fr/particuliers/vosdroits/F1352" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 12px; background: white; border: 1.5px solid var(--border-color); padding: 14px 18px; border-radius: var(--radius-sm); text-decoration: none;">
+          <span style="font-size: 22px;">📋</span>
+          <div>
+            <div style="font-weight: 700; color: var(--primary); font-size: 13.5px;">Déclaration de Travaux</div>
+            <div style="color: var(--text-muted); font-size: 12px;">Guide officiel Service-Public.fr</div>
+          </div>
+        </a>
+        <a href="https://www.ademe.fr/expertises/batiment/elements-contexte/isolation-thermique" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 12px; background: white; border: 1.5px solid var(--border-color); padding: 14px 18px; border-radius: var(--radius-sm); text-decoration: none;">
+          <span style="font-size: 22px;">🌍</span>
+          <div>
+            <div style="font-weight: 700; color: var(--primary); font-size: 13.5px;">ADEME — Isolation</div>
+            <div style="color: var(--text-muted); font-size: 12px;">Guide isolation thermique officiel</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cross-links & Nearby -->
+  <section style="padding: 50px 0; background-color: #FAF9F6; border-top: 1.5px solid var(--border-color);">
+    <div class="container" style="max-width: 900px;">
+      <h3 style="font-family: var(--font-heading); font-size: 20px; font-weight: 700; color: var(--primary); margin-bottom: 25px; text-align: center;">
+        🔗 Autres Services Toiture à {commune.nom}
+      </h3>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin-bottom: 30px;">
+        <a href={`/renovation-toiture-${commune.slug}/`} style="display: flex; align-items: center; gap: 14px; background: white; border: 1.5px solid var(--secondary); padding: 16px 20px; border-radius: var(--radius-sm); text-decoration: none;">
+          <span style="font-size: 26px;">🏠</span>
+          <div>
+            <div style="font-weight: 700; color: var(--secondary); font-size: 14px;">Rénovation de Toiture</div>
+            <div style="color: var(--text-muted); font-size: 12.5px;">Réfection complète tuiles — {commune.nom}</div>
+          </div>
+        </a>
+        <a href={`/expert-couverture-${commune.slug}/`} style="display: flex; align-items: center; gap: 14px; background: white; border: 1.5px solid var(--secondary); padding: 16px 20px; border-radius: var(--radius-sm); text-decoration: none;">
+          <span style="font-size: 26px;">👷</span>
+          <div>
+            <div style="font-weight: 700; color: var(--secondary); font-size: 14px;">Artisan Couvreur RGE</div>
+            <div style="color: var(--text-muted); font-size: 12.5px;">Devis qualifiés — {commune.nom}</div>
+          </div>
+        </a>
+      </div>
+
+      <h4 style="font-family: var(--font-heading); font-size: 17px; font-weight: 700; color: var(--primary); text-align: center; margin-bottom: 20px;">
+        🔍 Chantiers Étanchéité à Proximité de {commune.nom}
+      </h4>
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px;">
+        {nearby.map((n) => (
+          <a href={`/toiture-villa-${n.slug}/`} style="background: white; border: 1.5px solid var(--border-color); padding: 8px 16px; border-radius: 30px; font-size: 13px; font-weight: 700; color: var(--primary); text-decoration: none;">
+            🏡 Villa {n.nom} ({n.codePostal})
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  th, td {
+    border-bottom: 1px solid var(--border-color);
+  }
+  @media (max-width: 768px) {
+    div[style*="grid-template-columns: 1fr 1fr"] {
+      grid-template-columns: 1fr !important;
+    }
+  }
+</style>

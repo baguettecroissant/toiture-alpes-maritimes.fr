@@ -1,0 +1,2746 @@
+[
+  {
+    "nom": "Nice",
+    "slug": "nice",
+    "codeInsee": "06088",
+    "codePostal": "06000",
+    "population": 357737,
+    "latitude": 43.7032,
+    "longitude": 7.2528,
+    "intercommunalite": "Métropole Nice Côte d'Azur",
+    "introText": "Les villas et habitations situées à Nice subissent des agressions climatiques constantes liées à la façade maritime très exposée aux embruns salins méditerranéens. Avec 357 737 habitants, la commune possède un patrimoine architectural où dominent les immeubles Belle Époque du centre historique et de Cimiez coiffés de tuiles canal et de zinc, toitures terrasses de résidences modernes et villas de standing des collines niçoises. Une toiture en bon état y garantit une valorisation immobilière substantielle de 5 à 10% pour votre propriété, face aux fortes chaleurs d'été et orages d'automne.",
+    "conseilLocal": "Le Plan Local d'Urbanisme (PLU) de Nice encadre strictement la forme des toits et la teinte des tuiles (tuile canal ocre, jaune paille ou flammée). Consultez le service urbanisme en mairie avant tout démarrage de chantier.",
+    "faq": [
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Nice ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Nice, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Nice ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Nice ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Nice ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 12,
+      "prixM2Refection": 176,
+      "prixM2Demoussage": 28,
+      "delaiMoyenJours": 11
+    },
+    "microRegion": "littoral-riviera",
+    "microRegionLabel": "Littoral de la Riviera",
+    "altitude": 10,
+    "landmarks": [
+      "la Promenade des Anglais et le Vieux-Nice",
+      "la colline de Cimiez et le port Lympia"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal terre cuite premium ou tuile plate Marseille",
+      "fixation": "Crochets et vis en acier inoxydable qualité marine obligatoire",
+      "ventilation": "Closoirs de faîtage ventilés continus et grilles anti-corrosives",
+      "ecran": "Écran de sous-toiture HPV haute résistance salin/UV"
+    }
+  },
+  {
+    "nom": "Antibes",
+    "slug": "antibes",
+    "codeInsee": "06004",
+    "codePostal": "06160",
+    "population": 77637,
+    "latitude": 43.5823,
+    "longitude": 7.1048,
+    "intercommunalite": "Communauté d'agglomération Sophia Antipolis",
+    "introText": "Au cœur de l'intercommunalité Communauté d'agglomération Sophia Antipolis, Antibes bénéficie d'une situation géographique unique. Cependant, son climat soumis à un exposition directe au sel corrosif, au soleil intense du sud et aux entrées maritimes humides engendre un corrosion marine accélérée des fixations, dégradation des mortiers de chaux par le sel et dessèchement des joints d'étanchéité important. La toiture d'une villa de standing à Antibes exige un savoir-faire azuréen qualifié (DTU 43.1 / 40.21) pour assurer l'étanchéité à sec avec closoir ventilé et écran sous-toiture performant.",
+    "conseilLocal": "Faites réaliser un contrôle visuel de vos tuiles et gouttières à Antibes en fin d'été avant les intempéries d'automne. Les orages azuréens sont brefs mais très intenses, pouvant saturer les descentes de gouttières non nettoyées en quelques minutes.",
+    "faq": [
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Antibes ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Antibes ?",
+        "a": "Le tarif d'une réfection de toiture à Antibes dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Antibes ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Antibes, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Antibes ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 10,
+      "prixM2Refection": 157,
+      "prixM2Demoussage": 28,
+      "delaiMoyenJours": 8
+    },
+    "microRegion": "littoral-riviera",
+    "microRegionLabel": "Littoral de la Riviera",
+    "altitude": 8,
+    "landmarks": [
+      "le Fort Carré et le vieil Antibes",
+      "le Cap d'Antibes et ses villas prestigieuses"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal terre cuite premium ou tuile plate Marseille",
+      "fixation": "Crochets et vis en acier inoxydable qualité marine obligatoire",
+      "ventilation": "Closoirs de faîtage ventilés continus et grilles anti-corrosives",
+      "ecran": "Écran de sous-toiture HPV haute résistance salin/UV"
+    }
+  },
+  {
+    "nom": "Cannes",
+    "slug": "cannes",
+    "codeInsee": "06029",
+    "codePostal": "06150",
+    "population": 74350,
+    "latitude": 43.5454,
+    "longitude": 7.0152,
+    "intercommunalite": "Communauté d'agglomération Cannes Pays de Lérins",
+    "introText": "Les villas et habitations situées à Cannes subissent des agressions climatiques constantes liées à la façade maritime très exposée aux embruns salins méditerranéens. Avec 74 350 habitants, la commune possède un patrimoine architectural où dominent les villas prestigieuses de la Californie aux toitures traditionnelles canal, résidences de standing du littoral et immeubles de la Croisette aux toitures-terrasses étanchées. Une toiture en bon état y garantit une valorisation immobilière substantielle de 5 à 10% pour votre propriété, face aux fortes chaleurs d'été et orages d'automne.",
+    "conseilLocal": "À Cannes, l'exposition saline littoral impose d'utiliser exclusivement des matériaux anticorrosion de haute résistance comme le cuivre ou l'acier inoxydable à la place du zinc brut classique, qui s'oxyde en moins de 8 ans.",
+    "faq": [
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Cannes ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Cannes ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Cannes ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Cannes, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Cannes ?",
+        "a": "Le tarif d'une réfection de toiture à Cannes dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 15,
+      "prixM2Refection": 141,
+      "prixM2Demoussage": 28,
+      "delaiMoyenJours": 6
+    },
+    "microRegion": "littoral-riviera",
+    "microRegionLabel": "Littoral de la Riviera",
+    "altitude": 5,
+    "landmarks": [
+      "la Croisette et le Palais des Festivals",
+      "le Suquet et les îles de Lérins"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal terre cuite premium ou tuile plate Marseille",
+      "fixation": "Crochets et vis en acier inoxydable qualité marine obligatoire",
+      "ventilation": "Closoirs de faîtage ventilés continus et grilles anti-corrosives",
+      "ecran": "Écran de sous-toiture HPV haute résistance salin/UV"
+    }
+  },
+  {
+    "nom": "Cagnes-sur-Mer",
+    "slug": "cagnes-sur-mer",
+    "codeInsee": "06027",
+    "codePostal": "06800",
+    "population": 53354,
+    "latitude": 43.6712,
+    "longitude": 7.1502,
+    "intercommunalite": "Métropole Nice Côte d'Azur",
+    "introText": "Les villas et habitations situées à Cagnes-sur-Mer subissent des agressions climatiques constantes liées à la façade maritime très exposée aux embruns salins méditerranéens. Avec 53 354 habitants, la commune possède un patrimoine architectural où dominent les villas méditerranéennes typiques avec génoises à trois rangs et toitures basses en tuiles canal patinées. Une toiture en bon état y garantit une valorisation immobilière substantielle de 5 à 10% pour votre propriété, face aux fortes chaleurs d'été et orages d'automne.",
+    "conseilLocal": "Pour tous travaux de rénovation énergétique sous toiture (isolation sarking, rampants) à Cagnes-sur-Mer, assurez-vous de choisir un artisan qualifié RGE du 06 afin de bénéficier de la TVA réduite à 5,5% et des subventions d'État.",
+    "faq": [
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Cagnes-sur-Mer ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      },
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Cagnes-sur-Mer ?",
+        "a": "Le tarif d'une réfection de toiture à Cagnes-sur-Mer dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Cagnes-sur-Mer ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Cagnes-sur-Mer ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Cagnes-sur-Mer, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 14,
+      "prixM2Refection": 186,
+      "prixM2Demoussage": 26,
+      "delaiMoyenJours": 15
+    },
+    "microRegion": "littoral-riviera",
+    "microRegionLabel": "Littoral de la Riviera",
+    "altitude": 12,
+    "landmarks": [
+      "le château-musée Grimaldi du Haut-de-Cagnes",
+      "le domaine Renoir bordé d'oliviers centenaires"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal terre cuite premium ou tuile plate Marseille",
+      "fixation": "Crochets et vis en acier inoxydable qualité marine obligatoire",
+      "ventilation": "Closoirs de faîtage ventilés continus et grilles anti-corrosives",
+      "ecran": "Écran de sous-toiture HPV haute résistance salin/UV"
+    }
+  },
+  {
+    "nom": "Grasse",
+    "slug": "grasse",
+    "codeInsee": "06069",
+    "codePostal": "06130",
+    "population": 50970,
+    "latitude": 43.656,
+    "longitude": 6.937,
+    "intercommunalite": "Communauté d'agglomération du Pays de Grasse",
+    "introText": "Pour rénover ou entretenir votre toiture à Grasse (06130) dans les Alpes-Maritimes, faites appel à des experts de la Riviera. Le climat méditerranéen caractérisé par son orages d'automne intenses, variations thermiques jour/nuit marquées et fort ensoleillement nécessite une attention particulière. À proximité de les parfumeries historiques et la cathédrale médiévale, le parc immobilier composé de bastides de parfumeurs du XIXe siècle, maisons de village médiévales aux toits imbriqués en tuiles canal traditionnelles et pavillons récents du moyen-pays exige des matériaux de haute qualité, comme des tuiles de Marseille, du cuivre ou de l'inox pour parer au vieillissement.",
+    "conseilLocal": "Le Plan Local d'Urbanisme (PLU) de Grasse encadre strictement la forme des toits et la teinte des tuiles (tuile canal ocre, jaune paille ou flammée). Consultez le service urbanisme en mairie avant tout démarrage de chantier.",
+    "faq": [
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Grasse ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Grasse ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Grasse ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Grasse, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Grasse ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 9,
+      "prixM2Refection": 148,
+      "prixM2Demoussage": 20,
+      "delaiMoyenJours": 13
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 350,
+    "landmarks": [
+      "les parfumeries historiques et la cathédrale médiévale",
+      "la vieille ville provençale parfumée"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "Le Cannet",
+    "slug": "le-cannet",
+    "codeInsee": "06030",
+    "codePostal": "06110",
+    "population": 41938,
+    "latitude": 43.5745,
+    "longitude": 7.001,
+    "intercommunalite": "Communauté d'agglomération Cannes Pays de Lérins",
+    "introText": "Les villas et habitations situées à Le Cannet subissent des agressions climatiques constantes liées à la collines boisées et vallons à forte pente du moyen-pays. Avec 41 938 habitants, la commune possède un patrimoine architectural où dominent les anciennes bergeries restaurées aux charpentes apparentes en chêne et couvertures en tuiles canal d'époque. Une toiture en bon état y garantit une valorisation immobilière substantielle de 5 à 10% pour votre propriété, face aux fortes chaleurs d'été et orages d'automne.",
+    "conseilLocal": "Pour tous travaux de rénovation énergétique sous toiture (isolation sarking, rampants) à Le Cannet, assurez-vous de choisir un artisan qualifié RGE du 06 afin de bénéficier de la TVA réduite à 5,5% et des subventions d'État.",
+    "faq": [
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Le Cannet ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Le Cannet ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Le Cannet ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Le Cannet ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Le Cannet, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 14,
+      "prixM2Refection": 132,
+      "prixM2Demoussage": 20,
+      "delaiMoyenJours": 11
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 115,
+    "landmarks": [
+      "la place Bellevue et le vieux Cannet historique",
+      "les collines arborées dominant la baie de Cannes"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "Saint-Laurent-du-Var",
+    "slug": "saint-laurent-du-var",
+    "codeInsee": "06123",
+    "codePostal": "06700",
+    "population": 32172,
+    "latitude": 43.6865,
+    "longitude": 7.1822,
+    "intercommunalite": "Métropole Nice Côte d'Azur",
+    "introText": "Au cœur de l'intercommunalité Métropole Nice Côte d'Azur, Saint-Laurent-du-Var bénéficie d'une situation géographique unique. Cependant, son climat soumis à un exposition directe au sel corrosif, au soleil intense du sud et aux entrées maritimes humides engendre un corrosion marine accélérée des fixations, dégradation des mortiers de chaux par le sel et dessèchement des joints d'étanchéité important. La toiture d'une villa de standing à Saint-Laurent-du-Var exige un savoir-faire azuréen qualifié (DTU 43.1 / 40.21) pour assurer l'étanchéité à sec avec closoir ventilé et écran sous-toiture performant.",
+    "conseilLocal": "Pour tous travaux de rénovation énergétique sous toiture (isolation sarking, rampants) à Saint-Laurent-du-Var, assurez-vous de choisir un artisan qualifié RGE du 06 afin de bénéficier de la TVA réduite à 5,5% et des subventions d'État.",
+    "faq": [
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Saint-Laurent-du-Var ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Saint-Laurent-du-Var, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Saint-Laurent-du-Var ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Saint-Laurent-du-Var ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Saint-Laurent-du-Var ?",
+        "a": "Le tarif d'une réfection de toiture à Saint-Laurent-du-Var dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 14,
+      "prixM2Refection": 154,
+      "prixM2Demoussage": 21,
+      "delaiMoyenJours": 15
+    },
+    "microRegion": "littoral-riviera",
+    "microRegionLabel": "Littoral de la Riviera",
+    "altitude": 9,
+    "landmarks": [
+      "le port de plaisance et le bord de mer",
+      "le vieux village provençal fleuri"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal terre cuite premium ou tuile plate Marseille",
+      "fixation": "Crochets et vis en acier inoxydable qualité marine obligatoire",
+      "ventilation": "Closoirs de faîtage ventilés continus et grilles anti-corrosives",
+      "ecran": "Écran de sous-toiture HPV haute résistance salin/UV"
+    }
+  },
+  {
+    "nom": "Menton",
+    "slug": "menton",
+    "codeInsee": "06083",
+    "codePostal": "06500",
+    "population": 30604,
+    "latitude": 43.7961,
+    "longitude": 7.498,
+    "intercommunalite": "Communauté de la Riviera Française",
+    "introText": "Pour rénover ou entretenir votre toiture à Menton (06500) dans les Alpes-Maritimes, faites appel à des experts de la Riviera. Le climat méditerranéen caractérisé par son exposition directe au sel corrosif, au soleil intense du sud et aux entrées maritimes humides nécessite une attention particulière. À proximité de la basilique Saint-Michel-Archange aux façades pastel, le parc immobilier composé de villas et immeubles colorés d'esprit Belle Époque très proches de la mer méditerranée, exposés de plein fouet aux embruns salins agressifs exige des matériaux de haute qualité, comme des tuiles de Marseille, du cuivre ou de l'inox pour parer au vieillissement.",
+    "conseilLocal": "Le Plan Local d'Urbanisme (PLU) de Menton encadre strictement la forme des toits et la teinte des tuiles (tuile canal ocre, jaune paille ou flammée). Consultez le service urbanisme en mairie avant tout démarrage de chantier.",
+    "faq": [
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Menton ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Menton ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Menton ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      },
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Menton ?",
+        "a": "Le tarif d'une réfection de toiture à Menton dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 6,
+      "prixM2Refection": 140,
+      "prixM2Demoussage": 30,
+      "delaiMoyenJours": 5
+    },
+    "microRegion": "littoral-riviera",
+    "microRegionLabel": "Littoral de la Riviera",
+    "altitude": 4,
+    "landmarks": [
+      "la basilique Saint-Michel-Archange aux façades pastel",
+      "le bord de mer face à la Riviera italienne et les jardins d'exception"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal terre cuite premium ou tuile plate Marseille",
+      "fixation": "Crochets et vis en acier inoxydable qualité marine obligatoire",
+      "ventilation": "Closoirs de faîtage ventilés continus et grilles anti-corrosives",
+      "ecran": "Écran de sous-toiture HPV haute résistance salin/UV"
+    }
+  },
+  {
+    "nom": "Vallauris",
+    "slug": "vallauris",
+    "codeInsee": "06155",
+    "codePostal": "06220",
+    "population": 29259,
+    "latitude": 43.5787,
+    "longitude": 7.0604,
+    "intercommunalite": "Communauté de communes du Pays des Paillons",
+    "introText": "Pour rénover ou entretenir votre toiture à Vallauris (06220) dans les Alpes-Maritimes, faites appel à des experts de la Riviera. Le climat méditerranéen caractérisé par son exposition directe au sel corrosif, au soleil intense du sud et aux entrées maritimes humides nécessite une attention particulière. À proximité de les plages de galets et les ports de plaisance de la Riviera, le parc immobilier composé de villas méditerranéennes typiques avec génoises à trois rangs et toitures basses en tuiles canal patinées exige des matériaux de haute qualité, comme des tuiles de Marseille, du cuivre ou de l'inox pour parer au vieillissement.",
+    "conseilLocal": "Pour tous travaux de rénovation énergétique sous toiture (isolation sarking, rampants) à Vallauris, assurez-vous de choisir un artisan qualifié RGE du 06 afin de bénéficier de la TVA réduite à 5,5% et des subventions d'État.",
+    "faq": [
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Vallauris ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Vallauris, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Vallauris ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Vallauris ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Vallauris ?",
+        "a": "Le tarif d'une réfection de toiture à Vallauris dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 13,
+      "prixM2Refection": 136,
+      "prixM2Demoussage": 21,
+      "delaiMoyenJours": 5
+    },
+    "microRegion": "littoral-riviera",
+    "microRegionLabel": "Littoral de la Riviera",
+    "altitude": 110,
+    "landmarks": [
+      "les plages de galets et les ports de plaisance de la Riviera",
+      "les promenades maritimes bordées de palmiers"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal terre cuite premium ou tuile plate Marseille",
+      "fixation": "Crochets et vis en acier inoxydable qualité marine obligatoire",
+      "ventilation": "Closoirs de faîtage ventilés continus et grilles anti-corrosives",
+      "ecran": "Écran de sous-toiture HPV haute résistance salin/UV"
+    }
+  },
+  {
+    "nom": "Mandelieu-la-Napoule",
+    "slug": "mandelieu-la-napoule",
+    "codeInsee": "06079",
+    "codePostal": "06210",
+    "population": 21640,
+    "latitude": 43.5334,
+    "longitude": 6.918,
+    "intercommunalite": "Communauté d'agglomération Cannes Pays de Lérins",
+    "introText": "Les villas et habitations situées à Mandelieu-la-Napoule subissent des agressions climatiques constantes liées à la façade maritime très exposée aux embruns salins méditerranéens. Avec 21 640 habitants, la commune possède un patrimoine architectural où dominent les villas méditerranéennes typiques avec génoises à trois rangs et toitures basses en tuiles canal patinées. Une toiture en bon état y garantit une valorisation immobilière substantielle de 5 à 10% pour votre propriété, face aux fortes chaleurs d'été et orages d'automne.",
+    "conseilLocal": "Pour tous travaux de rénovation énergétique sous toiture (isolation sarking, rampants) à Mandelieu-la-Napoule, assurez-vous de choisir un artisan qualifié RGE du 06 afin de bénéficier de la TVA réduite à 5,5% et des subventions d'État.",
+    "faq": [
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Mandelieu-la-Napoule ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Mandelieu-la-Napoule ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Mandelieu-la-Napoule ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Mandelieu-la-Napoule, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Mandelieu-la-Napoule ?",
+        "a": "Le tarif d'une réfection de toiture à Mandelieu-la-Napoule dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 12,
+      "prixM2Refection": 162,
+      "prixM2Demoussage": 27,
+      "delaiMoyenJours": 15
+    },
+    "microRegion": "littoral-riviera",
+    "microRegionLabel": "Littoral de la Riviera",
+    "altitude": 6,
+    "landmarks": [
+      "le château fortifié de la Napoule",
+      "le massif de l'Estérel aux roches rouges"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal terre cuite premium ou tuile plate Marseille",
+      "fixation": "Crochets et vis en acier inoxydable qualité marine obligatoire",
+      "ventilation": "Closoirs de faîtage ventilés continus et grilles anti-corrosives",
+      "ecran": "Écran de sous-toiture HPV haute résistance salin/UV"
+    }
+  },
+  {
+    "nom": "Vence",
+    "slug": "vence",
+    "codeInsee": "06157",
+    "codePostal": "06140",
+    "population": 19917,
+    "latitude": 43.7373,
+    "longitude": 7.0995,
+    "intercommunalite": "Communauté de communes du Pays des Paillons",
+    "introText": "Les villas et habitations situées à Vence subissent des agressions climatiques constantes liées à la collines boisées et vallons à forte pente du moyen-pays. Avec 19 917 habitants, la commune possède un patrimoine architectural où dominent les maisons provençales individuelles avec toiture 2 ou 4 pans en tuiles de Marseille ou tuiles romanes traditionnelles. Une toiture en bon état y garantit une valorisation immobilière substantielle de 5 à 10% pour votre propriété, face aux fortes chaleurs d'été et orages d'automne.",
+    "conseilLocal": "Le Plan Local d'Urbanisme (PLU) de Vence encadre strictement la forme des toits et la teinte des tuiles (tuile canal ocre, jaune paille ou flammée). Consultez le service urbanisme en mairie avant tout démarrage de chantier.",
+    "faq": [
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Vence ?",
+        "a": "Le tarif d'une réfection de toiture à Vence dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Vence ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Vence ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Vence ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 12,
+      "prixM2Refection": 138,
+      "prixM2Demoussage": 21,
+      "delaiMoyenJours": 13
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 325,
+    "landmarks": [
+      "la cité historique et la chapelle du Rosaire signée Matisse",
+      "les remparts médiévaux et la fontaine du Peyra"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "Mougins",
+    "slug": "mougins",
+    "codeInsee": "06085",
+    "codePostal": "06250",
+    "population": 19782,
+    "latitude": 43.5931,
+    "longitude": 7.0046,
+    "intercommunalite": "Communauté d'agglomération Cannes Pays de Lérins",
+    "introText": "Les villas et habitations situées à Mougins subissent des agressions climatiques constantes liées à la collines boisées et vallons à forte pente du moyen-pays. Avec 19 782 habitants, la commune possède un patrimoine architectural où dominent les bastides collinaires en pierre et de villas résidentielles aux charpentes traditionnelles à forte pente, adaptées au relief. Une toiture en bon état y garantit une valorisation immobilière substantielle de 5 à 10% pour votre propriété, face aux fortes chaleurs d'été et orages d'automne.",
+    "conseilLocal": "À Mougins, l'exposition saline littoral impose d'utiliser exclusivement des matériaux anticorrosion de haute résistance comme le cuivre ou l'acier inoxydable à la place du zinc brut classique, qui s'oxyde en moins de 8 ans.",
+    "faq": [
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Mougins ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Mougins, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Mougins ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Mougins ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Mougins ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 7,
+      "prixM2Refection": 179,
+      "prixM2Demoussage": 30,
+      "delaiMoyenJours": 6
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 260,
+    "landmarks": [
+      "le vieux village pittoresque en colline",
+      "l'étang de Fontmerle et la chapelle de vie"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "Villeneuve-Loubet",
+    "slug": "villeneuve-loubet",
+    "codeInsee": "06161",
+    "codePostal": "06270",
+    "population": 17548,
+    "latitude": 43.647,
+    "longitude": 7.0984,
+    "intercommunalite": "Communauté de communes du Pays des Paillons",
+    "introText": "Au cœur de l'intercommunalité Communauté de communes du Pays des Paillons, Villeneuve-Loubet bénéficie d'une situation géographique unique. Cependant, son climat soumis à un exposition directe au sel corrosif, au soleil intense du sud et aux entrées maritimes humides engendre un corrosion marine accélérée des fixations, dégradation des mortiers de chaux par le sel et dessèchement des joints d'étanchéité important. La toiture d'une villa de standing à Villeneuve-Loubet exige un savoir-faire azuréen qualifié (DTU 43.1 / 40.21) pour assurer l'étanchéité à sec avec closoir ventilé et écran sous-toiture performant.",
+    "conseilLocal": "Pour tous travaux de rénovation énergétique sous toiture (isolation sarking, rampants) à Villeneuve-Loubet, assurez-vous de choisir un artisan qualifié RGE du 06 afin de bénéficier de la TVA réduite à 5,5% et des subventions d'État.",
+    "faq": [
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Villeneuve-Loubet ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Villeneuve-Loubet ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Villeneuve-Loubet ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Villeneuve-Loubet, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Villeneuve-Loubet ?",
+        "a": "Le tarif d'une réfection de toiture à Villeneuve-Loubet dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 8,
+      "prixM2Refection": 136,
+      "prixM2Demoussage": 25,
+      "delaiMoyenJours": 7
+    },
+    "microRegion": "littoral-riviera",
+    "microRegionLabel": "Littoral de la Riviera",
+    "altitude": 15,
+    "landmarks": [
+      "le château médiéval et la forteresse",
+      "Marina Baie des Anges à l'architecture audacieuse"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal terre cuite premium ou tuile plate Marseille",
+      "fixation": "Crochets et vis en acier inoxydable qualité marine obligatoire",
+      "ventilation": "Closoirs de faîtage ventilés continus et grilles anti-corrosives",
+      "ecran": "Écran de sous-toiture HPV haute résistance salin/UV"
+    }
+  },
+  {
+    "nom": "Carros",
+    "slug": "carros",
+    "codeInsee": "06033",
+    "codePostal": "06510",
+    "population": 13803,
+    "latitude": 43.785,
+    "longitude": 7.1798,
+    "intercommunalite": "Communauté de communes du Pays des Paillons",
+    "introText": "Les villas et habitations situées à Carros subissent des agressions climatiques constantes liées à la collines boisées et vallons à forte pente du moyen-pays. Avec 13 803 habitants, la commune possède un patrimoine architectural où dominent les villas de standing implantées sur les hauteurs avec toits en tuiles terre cuite scellées de grande qualité. Une toiture en bon état y garantit une valorisation immobilière substantielle de 5 à 10% pour votre propriété, face aux fortes chaleurs d'été et orages d'automne.",
+    "conseilLocal": "Faites réaliser un contrôle visuel de vos tuiles et gouttières à Carros en fin d'été avant les intempéries d'automne. Les orages azuréens sont brefs mais très intenses, pouvant saturer les descentes de gouttières non nettoyées en quelques minutes.",
+    "faq": [
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Carros ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Carros ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Carros ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Carros, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Carros ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 10,
+      "prixM2Refection": 135,
+      "prixM2Demoussage": 20,
+      "delaiMoyenJours": 16
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 380,
+    "landmarks": [
+      "le château médiéval dominant la vallée du Var",
+      "les collines du moyen-pays azuréen"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "Roquebrune-Cap-Martin",
+    "slug": "roquebrune-cap-martin",
+    "codeInsee": "06104",
+    "codePostal": "06190",
+    "population": 12037,
+    "latitude": 43.7638,
+    "longitude": 7.4576,
+    "intercommunalite": "Communauté de la Riviera Française",
+    "introText": "Pour rénover ou entretenir votre toiture à Roquebrune-Cap-Martin (06190) dans les Alpes-Maritimes, faites appel à des experts de la Riviera. Le climat méditerranéen caractérisé par son exposition directe au sel corrosif, au soleil intense du sud et aux entrées maritimes humides nécessite une attention particulière. À proximité de le château médiéval Grimaldi et l'olivier millénaire, le parc immobilier composé de villas contemporaines aux toits plats et acrotères, exposées en front de mer aux embruns salins corrosifs exige des matériaux de haute qualité, comme des tuiles de Marseille, du cuivre ou de l'inox pour parer au vieillissement.",
+    "conseilLocal": "Le Plan Local d'Urbanisme (PLU) de Roquebrune-Cap-Martin encadre strictement la forme des toits et la teinte des tuiles (tuile canal ocre, jaune paille ou flammée). Consultez le service urbanisme en mairie avant tout démarrage de chantier.",
+    "faq": [
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Roquebrune-Cap-Martin ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Roquebrune-Cap-Martin ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Roquebrune-Cap-Martin ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Roquebrune-Cap-Martin ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Roquebrune-Cap-Martin, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 6,
+      "prixM2Refection": 134,
+      "prixM2Demoussage": 22,
+      "delaiMoyenJours": 13
+    },
+    "microRegion": "littoral-riviera",
+    "microRegionLabel": "Littoral de la Riviera",
+    "altitude": 120,
+    "landmarks": [
+      "le château médiéval Grimaldi et l'olivier millénaire",
+      "le sentier des douaniers et les villas d'architecte"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal terre cuite premium ou tuile plate Marseille",
+      "fixation": "Crochets et vis en acier inoxydable qualité marine obligatoire",
+      "ventilation": "Closoirs de faîtage ventilés continus et grilles anti-corrosives",
+      "ecran": "Écran de sous-toiture HPV haute résistance salin/UV"
+    }
+  },
+  {
+    "nom": "Valbonne",
+    "slug": "valbonne",
+    "codeInsee": "06152",
+    "codePostal": "06560",
+    "population": 11939,
+    "latitude": 43.6267,
+    "longitude": 7.0291,
+    "intercommunalite": "Communauté d'agglomération Sophia Antipolis",
+    "introText": "Au cœur de l'intercommunalité Communauté d'agglomération Sophia Antipolis, Valbonne bénéficie d'une situation géographique unique. Cependant, son climat soumis à un orages d'automne intenses, variations thermiques jour/nuit marquées et fort ensoleillement engendre un infiltration par fort vent sur les toits à forte pente et débordement rapide des gouttières lors d'orages violents important. La toiture d'une villa de standing à Valbonne exige un savoir-faire azuréen qualifié (DTU 43.1 / 40.21) pour assurer l'étanchéité à sec avec closoir ventilé et écran sous-toiture performant.",
+    "conseilLocal": "Pour tous travaux de rénovation énergétique sous toiture (isolation sarking, rampants) à Valbonne, assurez-vous de choisir un artisan qualifié RGE du 06 afin de bénéficier de la TVA réduite à 5,5% et des subventions d'État.",
+    "faq": [
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Valbonne ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Valbonne, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Valbonne ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Valbonne ?",
+        "a": "Le tarif d'une réfection de toiture à Valbonne dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Valbonne ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 14,
+      "prixM2Refection": 142,
+      "prixM2Demoussage": 29,
+      "delaiMoyenJours": 9
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 200,
+    "landmarks": [
+      "l'abbaye chalaisienne et la place des Arcades",
+      "les pinèdes de Sophia Antipolis"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "Beausoleil",
+    "slug": "beausoleil",
+    "codeInsee": "06012",
+    "codePostal": "06240",
+    "population": 11936,
+    "latitude": 43.7471,
+    "longitude": 7.4227,
+    "intercommunalite": "Communauté de la Riviera Française",
+    "introText": "Au cœur de l'intercommunalité Communauté de la Riviera Française, Beausoleil bénéficie d'une situation géographique unique. Cependant, son climat soumis à un exposition directe au sel corrosif, au soleil intense du sud et aux entrées maritimes humides engendre un corrosion marine accélérée des fixations, dégradation des mortiers de chaux par le sel et dessèchement des joints d'étanchéité important. La toiture d'une villa de standing à Beausoleil exige un savoir-faire azuréen qualifié (DTU 43.1 / 40.21) pour assurer l'étanchéité à sec avec closoir ventilé et écran sous-toiture performant.",
+    "conseilLocal": "Pour tous travaux de rénovation énergétique sous toiture (isolation sarking, rampants) à Beausoleil, assurez-vous de choisir un artisan qualifié RGE du 06 afin de bénéficier de la TVA réduite à 5,5% et des subventions d'État.",
+    "faq": [
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Beausoleil ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Beausoleil ?",
+        "a": "Le tarif d'une réfection de toiture à Beausoleil dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Beausoleil ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Beausoleil ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 8,
+      "prixM2Refection": 134,
+      "prixM2Demoussage": 27,
+      "delaiMoyenJours": 7
+    },
+    "microRegion": "littoral-riviera",
+    "microRegionLabel": "Littoral de la Riviera",
+    "altitude": 180,
+    "landmarks": [
+      "les escaliers monumentaux surplombant Monaco",
+      "le marché couvert de style Eiffel"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal terre cuite premium ou tuile plate Marseille",
+      "fixation": "Crochets et vis en acier inoxydable qualité marine obligatoire",
+      "ventilation": "Closoirs de faîtage ventilés continus et grilles anti-corrosives",
+      "ecran": "Écran de sous-toiture HPV haute résistance salin/UV"
+    }
+  },
+  {
+    "nom": "Mouans-Sartoux",
+    "slug": "mouans-sartoux",
+    "codeInsee": "06084",
+    "codePostal": "06370",
+    "population": 11015,
+    "latitude": 43.6192,
+    "longitude": 6.9677,
+    "intercommunalite": "Communauté d'agglomération du Pays de Grasse",
+    "introText": "Pour rénover ou entretenir votre toiture à Mouans-Sartoux (06370) dans les Alpes-Maritimes, faites appel à des experts de la Riviera. Le climat méditerranéen caractérisé par son orages d'automne intenses, variations thermiques jour/nuit marquées et fort ensoleillement nécessite une attention particulière. À proximité de le château et l'Espace de l'Art Concret, le parc immobilier composé de villas de standing implantées sur les hauteurs avec toits en tuiles terre cuite scellées de grande qualité exige des matériaux de haute qualité, comme des tuiles de Marseille, du cuivre ou de l'inox pour parer au vieillissement.",
+    "conseilLocal": "Faites réaliser un contrôle visuel de vos tuiles et gouttières à Mouans-Sartoux en fin d'été avant les intempéries d'automne. Les orages azuréens sont brefs mais très intenses, pouvant saturer les descentes de gouttières non nettoyées en quelques minutes.",
+    "faq": [
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Mouans-Sartoux ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Mouans-Sartoux, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Mouans-Sartoux ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Mouans-Sartoux ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      },
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Mouans-Sartoux ?",
+        "a": "Le tarif d'une réfection de toiture à Mouans-Sartoux dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 17,
+      "prixM2Refection": 179,
+      "prixM2Demoussage": 29,
+      "delaiMoyenJours": 18
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 125,
+    "landmarks": [
+      "le château et l'Espace de l'Art Concret",
+      "le centre-ville piétonnier fleuri"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "La Trinité",
+    "slug": "la-trinite",
+    "codeInsee": "06149",
+    "codePostal": "06340",
+    "population": 10602,
+    "latitude": 43.7415,
+    "longitude": 7.3413,
+    "intercommunalite": "Métropole Nice Côte d'Azur",
+    "introText": "Au cœur de l'intercommunalité Métropole Nice Côte d'Azur, La Trinité bénéficie d'une situation géographique unique. Cependant, son climat soumis à un exposition directe au sel corrosif, au soleil intense du sud et aux entrées maritimes humides engendre un corrosion marine accélérée des fixations, dégradation des mortiers de chaux par le sel et dessèchement des joints d'étanchéité important. La toiture d'une villa de standing à La Trinité exige un savoir-faire azuréen qualifié (DTU 43.1 / 40.21) pour assurer l'étanchéité à sec avec closoir ventilé et écran sous-toiture performant.",
+    "conseilLocal": "Le Plan Local d'Urbanisme (PLU) de La Trinité encadre strictement la forme des toits et la teinte des tuiles (tuile canal ocre, jaune paille ou flammée). Consultez le service urbanisme en mairie avant tout démarrage de chantier.",
+    "faq": [
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à La Trinité ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à La Trinité ?",
+        "a": "Le tarif d'une réfection de toiture à La Trinité dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de La Trinité ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à La Trinité, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à La Trinité ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 5,
+      "prixM2Refection": 136,
+      "prixM2Demoussage": 21,
+      "delaiMoyenJours": 11
+    },
+    "microRegion": "littoral-riviera",
+    "microRegionLabel": "Littoral de la Riviera",
+    "altitude": 70,
+    "landmarks": [
+      "les plages de galets et les ports de plaisance de la Riviera",
+      "les promenades maritimes bordées de palmiers"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal terre cuite premium ou tuile plate Marseille",
+      "fixation": "Crochets et vis en acier inoxydable qualité marine obligatoire",
+      "ventilation": "Closoirs de faîtage ventilés continus et grilles anti-corrosives",
+      "ecran": "Écran de sous-toiture HPV haute résistance salin/UV"
+    }
+  },
+  {
+    "nom": "Biot",
+    "slug": "biot",
+    "codeInsee": "06018",
+    "codePostal": "06410",
+    "population": 10511,
+    "latitude": 43.6273,
+    "longitude": 7.0821,
+    "intercommunalite": "Communauté d'agglomération Sophia Antipolis",
+    "introText": "Au cœur de l'intercommunalité Communauté d'agglomération Sophia Antipolis, Biot bénéficie d'une situation géographique unique. Cependant, son climat soumis à un orages d'automne intenses, variations thermiques jour/nuit marquées et fort ensoleillement engendre un infiltration par fort vent sur les toits à forte pente et débordement rapide des gouttières lors d'orages violents important. La toiture d'une villa de standing à Biot exige un savoir-faire azuréen qualifié (DTU 43.1 / 40.21) pour assurer l'étanchéité à sec avec closoir ventilé et écran sous-toiture performant.",
+    "conseilLocal": "Faites réaliser un contrôle visuel de vos tuiles et gouttières à Biot en fin d'été avant les intempéries d'automne. Les orages azuréens sont brefs mais très intenses, pouvant saturer les descentes de gouttières non nettoyées en quelques minutes.",
+    "faq": [
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Biot ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Biot, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Biot ?",
+        "a": "Le tarif d'une réfection de toiture à Biot dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Biot ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Biot ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 10,
+      "prixM2Refection": 159,
+      "prixM2Demoussage": 20,
+      "delaiMoyenJours": 6
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 50,
+    "landmarks": [
+      "les verreries artisanales d'art soufflé",
+      "les ruelles médiévales fleuries"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "Peymeinade",
+    "slug": "peymeinade",
+    "codeInsee": "06095",
+    "codePostal": "06530",
+    "population": 8514,
+    "latitude": 43.6289,
+    "longitude": 6.8807,
+    "intercommunalite": "Communauté d'agglomération du Pays de Grasse",
+    "introText": "Pour rénover ou entretenir votre toiture à Peymeinade (06530) dans les Alpes-Maritimes, faites appel à des experts de la Riviera. Le climat méditerranéen caractérisé par son orages d'automne intenses, variations thermiques jour/nuit marquées et fort ensoleillement nécessite une attention particulière. À proximité de les ruelles de village provençal en colline, le parc immobilier composé de maisons provençales individuelles avec toiture 2 ou 4 pans en tuiles de Marseille ou tuiles romanes traditionnelles exige des matériaux de haute qualité, comme des tuiles de Marseille, du cuivre ou de l'inox pour parer au vieillissement.",
+    "conseilLocal": "Le Plan Local d'Urbanisme (PLU) de Peymeinade encadre strictement la forme des toits et la teinte des tuiles (tuile canal ocre, jaune paille ou flammée). Consultez le service urbanisme en mairie avant tout démarrage de chantier.",
+    "faq": [
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Peymeinade ?",
+        "a": "Le tarif d'une réfection de toiture à Peymeinade dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Peymeinade ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Peymeinade ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Peymeinade, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Peymeinade ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 12,
+      "prixM2Refection": 132,
+      "prixM2Demoussage": 34,
+      "delaiMoyenJours": 17
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 210,
+    "landmarks": [
+      "les ruelles de village provençal en colline",
+      "les oliveraies et la garrigue méditerranéenne"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "Pégomas",
+    "slug": "pegomas",
+    "codeInsee": "06090",
+    "codePostal": "06580",
+    "population": 8240,
+    "latitude": 43.5886,
+    "longitude": 6.9213,
+    "intercommunalite": "Communauté d'agglomération du Pays de Grasse",
+    "introText": "Les villas et habitations situées à Pégomas subissent des agressions climatiques constantes liées à la collines boisées et vallons à forte pente du moyen-pays. Avec 8 240 habitants, la commune possède un patrimoine architectural où dominent les bastides collinaires en pierre et de villas résidentielles aux charpentes traditionnelles à forte pente, adaptées au relief. Une toiture en bon état y garantit une valorisation immobilière substantielle de 5 à 10% pour votre propriété, face aux fortes chaleurs d'été et orages d'automne.",
+    "conseilLocal": "À Pégomas, l'exposition saline littoral impose d'utiliser exclusivement des matériaux anticorrosion de haute résistance comme le cuivre ou l'acier inoxydable à la place du zinc brut classique, qui s'oxyde en moins de 8 ans.",
+    "faq": [
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Pégomas ?",
+        "a": "Le tarif d'une réfection de toiture à Pégomas dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Pégomas ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Pégomas ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Pégomas ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Pégomas, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 12,
+      "prixM2Refection": 179,
+      "prixM2Demoussage": 23,
+      "delaiMoyenJours": 18
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 20,
+    "landmarks": [
+      "les ruelles de village provençal en colline",
+      "les oliveraies et la garrigue méditerranéenne"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "La Colle-sur-Loup",
+    "slug": "la-colle-sur-loup",
+    "codeInsee": "06044",
+    "codePostal": "06480",
+    "population": 8202,
+    "latitude": 43.6869,
+    "longitude": 7.0975,
+    "intercommunalite": "Communauté d'agglomération Sophia Antipolis",
+    "introText": "Les villas et habitations situées à La Colle-sur-Loup subissent des agressions climatiques constantes liées à la collines boisées et vallons à forte pente du moyen-pays. Avec 8 202 habitants, la commune possède un patrimoine architectural où dominent les anciennes bergeries restaurées aux charpentes apparentes en chêne et couvertures en tuiles canal d'époque. Une toiture en bon état y garantit une valorisation immobilière substantielle de 5 à 10% pour votre propriété, face aux fortes chaleurs d'été et orages d'automne.",
+    "conseilLocal": "Pour tous travaux de rénovation énergétique sous toiture (isolation sarking, rampants) à La Colle-sur-Loup, assurez-vous de choisir un artisan qualifié RGE du 06 afin de bénéficier de la TVA réduite à 5,5% et des subventions d'État.",
+    "faq": [
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à La Colle-sur-Loup ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de La Colle-sur-Loup ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à La Colle-sur-Loup, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à La Colle-sur-Loup ?",
+        "a": "Le tarif d'une réfection de toiture à La Colle-sur-Loup dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à La Colle-sur-Loup ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 7,
+      "prixM2Refection": 136,
+      "prixM2Demoussage": 24,
+      "delaiMoyenJours": 15
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 90,
+    "landmarks": [
+      "les ruelles de village provençal en colline",
+      "les oliveraies et la garrigue méditerranéenne"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "Contes",
+    "slug": "contes",
+    "codeInsee": "06048",
+    "codePostal": "06390",
+    "population": 7897,
+    "latitude": 43.8133,
+    "longitude": 7.3263,
+    "intercommunalite": "Communauté de communes du Pays des Paillons",
+    "introText": "Les villas et habitations situées à Contes subissent des agressions climatiques constantes liées à la vallées montagneuses et contreforts des Alpes du Sud. Avec 7 897 habitants, la commune possède un patrimoine architectural où dominent les maisons de montagne en pierres apparentes coiffées de tuiles canal épaisses scellées au mortier ou de couvertures résistantes. Une toiture en bon état y garantit une valorisation immobilière substantielle de 5 à 10% pour votre propriété, face aux fortes chaleurs d'été et orages d'automne.",
+    "conseilLocal": "À Contes, l'exposition saline littoral impose d'utiliser exclusivement des matériaux anticorrosion de haute résistance comme le cuivre ou l'acier inoxydable à la place du zinc brut classique, qui s'oxyde en moins de 8 ans.",
+    "faq": [
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Contes ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Contes ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Contes, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Contes ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Contes ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 7,
+      "prixM2Refection": 185,
+      "prixM2Demoussage": 29,
+      "delaiMoyenJours": 12
+    },
+    "microRegion": "arriere-pays-montagne",
+    "microRegionLabel": "Arrière-Pays & Reliefs du Mercantour",
+    "altitude": 290,
+    "landmarks": [
+      "les vallées préservées de la Tinée et de la Vésubie",
+      "les reliefs alpins et les forêts du Mercantour"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal épaisse ou tuile béton résistance gel",
+      "fixation": "Fixation complète de chaque tuile par vis inox",
+      "ventilation": "Closoirs en aluminium rigide ventilés",
+      "ecran": "Écran de sous-toiture pare-neige rigide résistant au gel"
+    }
+  },
+  {
+    "nom": "Roquefort-les-Pins",
+    "slug": "roquefort-les-pins",
+    "codeInsee": "06105",
+    "codePostal": "06330",
+    "population": 7292,
+    "latitude": 43.6723,
+    "longitude": 7.0565,
+    "intercommunalite": "Communauté d'agglomération Sophia Antipolis",
+    "introText": "Pour rénover ou entretenir votre toiture à Roquefort-les-Pins (06330) dans les Alpes-Maritimes, faites appel à des experts de la Riviera. Le climat méditerranéen caractérisé par son orages d'automne intenses, variations thermiques jour/nuit marquées et fort ensoleillement nécessite une attention particulière. À proximité de les ruelles de village provençal en colline, le parc immobilier composé de anciennes bergeries restaurées aux charpentes apparentes en chêne et couvertures en tuiles canal d'époque exige des matériaux de haute qualité, comme des tuiles de Marseille, du cuivre ou de l'inox pour parer au vieillissement.",
+    "conseilLocal": "Pour tous travaux de rénovation énergétique sous toiture (isolation sarking, rampants) à Roquefort-les-Pins, assurez-vous de choisir un artisan qualifié RGE du 06 afin de bénéficier de la TVA réduite à 5,5% et des subventions d'État.",
+    "faq": [
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Roquefort-les-Pins ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Roquefort-les-Pins, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Roquefort-les-Pins ?",
+        "a": "Le tarif d'une réfection de toiture à Roquefort-les-Pins dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Roquefort-les-Pins ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Roquefort-les-Pins ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 8,
+      "prixM2Refection": 174,
+      "prixM2Demoussage": 31,
+      "delaiMoyenJours": 15
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 180,
+    "landmarks": [
+      "les ruelles de village provençal en colline",
+      "les oliveraies et la garrigue méditerranéenne"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "La Gaude",
+    "slug": "la-gaude",
+    "codeInsee": "06065",
+    "codePostal": "06610",
+    "population": 7265,
+    "latitude": 43.7177,
+    "longitude": 7.1605,
+    "intercommunalite": "Métropole Nice Côte d'Azur",
+    "introText": "Les villas et habitations situées à La Gaude subissent des agressions climatiques constantes liées à la collines boisées et vallons à forte pente du moyen-pays. Avec 7 265 habitants, la commune possède un patrimoine architectural où dominent les villas de standing implantées sur les hauteurs avec toits en tuiles terre cuite scellées de grande qualité. Une toiture en bon état y garantit une valorisation immobilière substantielle de 5 à 10% pour votre propriété, face aux fortes chaleurs d'été et orages d'automne.",
+    "conseilLocal": "Faites réaliser un contrôle visuel de vos tuiles et gouttières à La Gaude en fin d'été avant les intempéries d'automne. Les orages azuréens sont brefs mais très intenses, pouvant saturer les descentes de gouttières non nettoyées en quelques minutes.",
+    "faq": [
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à La Gaude ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à La Gaude ?",
+        "a": "Le tarif d'une réfection de toiture à La Gaude dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à La Gaude ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à La Gaude ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 8,
+      "prixM2Refection": 143,
+      "prixM2Demoussage": 21,
+      "delaiMoyenJours": 8
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 230,
+    "landmarks": [
+      "les ruelles de village provençal en colline",
+      "les oliveraies et la garrigue méditerranéenne"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "Saint-André-de-la-Roche",
+    "slug": "saint-andre-de-la-roche",
+    "codeInsee": "06114",
+    "codePostal": "06730",
+    "population": 5896,
+    "latitude": 43.7455,
+    "longitude": 7.2875,
+    "intercommunalite": "Métropole Nice Côte d'Azur",
+    "introText": "Pour rénover ou entretenir votre toiture à Saint-André-de-la-Roche (06730) dans les Alpes-Maritimes, faites appel à des experts de la Riviera. Le climat méditerranéen caractérisé par son exposition directe au sel corrosif, au soleil intense du sud et aux entrées maritimes humides nécessite une attention particulière. À proximité de les plages de galets et les ports de plaisance de la Riviera, le parc immobilier composé de immeubles résidentiels collectifs aux toits-terrasses équipés de membranes d'étanchéité multicouches de qualité supérieure exige des matériaux de haute qualité, comme des tuiles de Marseille, du cuivre ou de l'inox pour parer au vieillissement.",
+    "conseilLocal": "Faites réaliser un contrôle visuel de vos tuiles et gouttières à Saint-André-de-la-Roche en fin d'été avant les intempéries d'automne. Les orages azuréens sont brefs mais très intenses, pouvant saturer les descentes de gouttières non nettoyées en quelques minutes.",
+    "faq": [
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Saint-André-de-la-Roche ?",
+        "a": "Le tarif d'une réfection de toiture à Saint-André-de-la-Roche dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Saint-André-de-la-Roche ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Saint-André-de-la-Roche ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Saint-André-de-la-Roche ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Saint-André-de-la-Roche, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 3,
+      "prixM2Refection": 173,
+      "prixM2Demoussage": 24,
+      "delaiMoyenJours": 8
+    },
+    "microRegion": "littoral-riviera",
+    "microRegionLabel": "Littoral de la Riviera",
+    "altitude": 65,
+    "landmarks": [
+      "les plages de galets et les ports de plaisance de la Riviera",
+      "les promenades maritimes bordées de palmiers"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal terre cuite premium ou tuile plate Marseille",
+      "fixation": "Crochets et vis en acier inoxydable qualité marine obligatoire",
+      "ventilation": "Closoirs de faîtage ventilés continus et grilles anti-corrosives",
+      "ecran": "Écran de sous-toiture HPV haute résistance salin/UV"
+    }
+  },
+  {
+    "nom": "La Roquette-sur-Siagne",
+    "slug": "la-roquette-sur-siagne",
+    "codeInsee": "06108",
+    "codePostal": "06550",
+    "population": 5669,
+    "latitude": 43.5853,
+    "longitude": 6.9475,
+    "intercommunalite": "Communauté d'agglomération du Pays de Grasse",
+    "introText": "Au cœur de l'intercommunalité Communauté d'agglomération du Pays de Grasse, La Roquette-sur-Siagne bénéficie d'une situation géographique unique. Cependant, son climat soumis à un orages d'automne intenses, variations thermiques jour/nuit marquées et fort ensoleillement engendre un infiltration par fort vent sur les toits à forte pente et débordement rapide des gouttières lors d'orages violents important. La toiture d'une villa de standing à La Roquette-sur-Siagne exige un savoir-faire azuréen qualifié (DTU 43.1 / 40.21) pour assurer l'étanchéité à sec avec closoir ventilé et écran sous-toiture performant.",
+    "conseilLocal": "À La Roquette-sur-Siagne, l'exposition saline littoral impose d'utiliser exclusivement des matériaux anticorrosion de haute résistance comme le cuivre ou l'acier inoxydable à la place du zinc brut classique, qui s'oxyde en moins de 8 ans.",
+    "faq": [
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à La Roquette-sur-Siagne ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à La Roquette-sur-Siagne ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de La Roquette-sur-Siagne ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à La Roquette-sur-Siagne, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à La Roquette-sur-Siagne ?",
+        "a": "Le tarif d'une réfection de toiture à La Roquette-sur-Siagne dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 3,
+      "prixM2Refection": 185,
+      "prixM2Demoussage": 33,
+      "delaiMoyenJours": 18
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 140,
+    "landmarks": [
+      "les ruelles de village provençal en colline",
+      "les oliveraies et la garrigue méditerranéenne"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "Drap",
+    "slug": "drap",
+    "codeInsee": "06054",
+    "codePostal": "06340",
+    "population": 5484,
+    "latitude": 43.7587,
+    "longitude": 7.3395,
+    "intercommunalite": "Communauté de communes du Pays des Paillons",
+    "introText": "Les villas et habitations situées à Drap subissent des agressions climatiques constantes liées à la collines boisées et vallons à forte pente du moyen-pays. Avec 5 484 habitants, la commune possède un patrimoine architectural où dominent les anciennes bergeries restaurées aux charpentes apparentes en chêne et couvertures en tuiles canal d'époque. Une toiture en bon état y garantit une valorisation immobilière substantielle de 5 à 10% pour votre propriété, face aux fortes chaleurs d'été et orages d'automne.",
+    "conseilLocal": "Pour tous travaux de rénovation énergétique sous toiture (isolation sarking, rampants) à Drap, assurez-vous de choisir un artisan qualifié RGE du 06 afin de bénéficier de la TVA réduite à 5,5% et des subventions d'État.",
+    "faq": [
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Drap ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Drap ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Drap ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Drap ?",
+        "a": "Le tarif d'une réfection de toiture à Drap dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 8,
+      "prixM2Refection": 138,
+      "prixM2Demoussage": 31,
+      "delaiMoyenJours": 17
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 90,
+    "landmarks": [
+      "les ruelles de village provençal en colline",
+      "les oliveraies et la garrigue méditerranéenne"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "Levens",
+    "slug": "levens",
+    "codeInsee": "06075",
+    "codePostal": "06670",
+    "population": 5377,
+    "latitude": 43.8501,
+    "longitude": 7.2358,
+    "intercommunalite": "Communauté de communes du Pays des Paillons",
+    "introText": "Les villas et habitations situées à Levens subissent des agressions climatiques constantes liées à la vallées montagneuses et contreforts des Alpes du Sud. Avec 5 377 habitants, la commune possède un patrimoine architectural où dominent les bastides isolées de moyenne montagne dotées de toitures en tuiles canal robustes résistant au gel et à la neige. Une toiture en bon état y garantit une valorisation immobilière substantielle de 5 à 10% pour votre propriété, face aux fortes chaleurs d'été et orages d'automne.",
+    "conseilLocal": "Le Plan Local d'Urbanisme (PLU) de Levens encadre strictement la forme des toits et la teinte des tuiles (tuile canal ocre, jaune paille ou flammée). Consultez le service urbanisme en mairie avant tout démarrage de chantier.",
+    "faq": [
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Levens ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Levens, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Levens ?",
+        "a": "Le tarif d'une réfection de toiture à Levens dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Levens ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Levens ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 6,
+      "prixM2Refection": 176,
+      "prixM2Demoussage": 30,
+      "delaiMoyenJours": 15
+    },
+    "microRegion": "arriere-pays-montagne",
+    "microRegionLabel": "Arrière-Pays & Reliefs du Mercantour",
+    "altitude": 580,
+    "landmarks": [
+      "les vallées préservées de la Tinée et de la Vésubie",
+      "les reliefs alpins et les forêts du Mercantour"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal épaisse ou tuile béton résistance gel",
+      "fixation": "Fixation complète de chaque tuile par vis inox",
+      "ventilation": "Closoirs en aluminium rigide ventilés",
+      "ecran": "Écran de sous-toiture pare-neige rigide résistant au gel"
+    }
+  },
+  {
+    "nom": "Villefranche-sur-Mer",
+    "slug": "villefranche-sur-mer",
+    "codeInsee": "06159",
+    "codePostal": "06230",
+    "population": 5008,
+    "latitude": 43.7081,
+    "longitude": 7.3243,
+    "intercommunalite": "Métropole Nice Côte d'Azur",
+    "introText": "Pour rénover ou entretenir votre toiture à Villefranche-sur-Mer (06230) dans les Alpes-Maritimes, faites appel à des experts de la Riviera. Le climat méditerranéen caractérisé par son exposition directe au sel corrosif, au soleil intense du sud et aux entrées maritimes humides nécessite une attention particulière. À proximité de la citadelle Saint-Elme et la rade majestueuse, le parc immobilier composé de villas contemporaines aux toits plats et acrotères, exposées en front de mer aux embruns salins corrosifs exige des matériaux de haute qualité, comme des tuiles de Marseille, du cuivre ou de l'inox pour parer au vieillissement.",
+    "conseilLocal": "Le Plan Local d'Urbanisme (PLU) de Villefranche-sur-Mer encadre strictement la forme des toits et la teinte des tuiles (tuile canal ocre, jaune paille ou flammée). Consultez le service urbanisme en mairie avant tout démarrage de chantier.",
+    "faq": [
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Villefranche-sur-Mer ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Villefranche-sur-Mer ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Villefranche-sur-Mer ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Villefranche-sur-Mer, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Villefranche-sur-Mer ?",
+        "a": "Le tarif d'une réfection de toiture à Villefranche-sur-Mer dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 17,
+      "prixM2Refection": 188,
+      "prixM2Demoussage": 23,
+      "delaiMoyenJours": 9
+    },
+    "microRegion": "littoral-riviera",
+    "microRegionLabel": "Littoral de la Riviera",
+    "altitude": 15,
+    "landmarks": [
+      "la citadelle Saint-Elme et la rade majestueuse",
+      "les façades colorées du port de pêcheurs"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal terre cuite premium ou tuile plate Marseille",
+      "fixation": "Crochets et vis en acier inoxydable qualité marine obligatoire",
+      "ventilation": "Closoirs de faîtage ventilés continus et grilles anti-corrosives",
+      "ecran": "Écran de sous-toiture HPV haute résistance salin/UV"
+    }
+  },
+  {
+    "nom": "Tourrette-Levens",
+    "slug": "tourrette-levens",
+    "codeInsee": "06147",
+    "codePostal": "06690",
+    "population": 4624,
+    "latitude": 43.7882,
+    "longitude": 7.275,
+    "intercommunalite": "Métropole Nice Côte d'Azur",
+    "introText": "Pour rénover ou entretenir votre toiture à Tourrette-Levens (06690) dans les Alpes-Maritimes, faites appel à des experts de la Riviera. Le climat méditerranéen caractérisé par son orages d'automne intenses, variations thermiques jour/nuit marquées et fort ensoleillement nécessite une attention particulière. À proximité de les ruelles de village provençal en colline, le parc immobilier composé de bastides collinaires en pierre et de villas résidentielles aux charpentes traditionnelles à forte pente, adaptées au relief exige des matériaux de haute qualité, comme des tuiles de Marseille, du cuivre ou de l'inox pour parer au vieillissement.",
+    "conseilLocal": "À Tourrette-Levens, l'exposition saline littoral impose d'utiliser exclusivement des matériaux anticorrosion de haute résistance comme le cuivre ou l'acier inoxydable à la place du zinc brut classique, qui s'oxyde en moins de 8 ans.",
+    "faq": [
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Tourrette-Levens ?",
+        "a": "Le tarif d'une réfection de toiture à Tourrette-Levens dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Tourrette-Levens ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Tourrette-Levens ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Tourrette-Levens ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Tourrette-Levens, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 7,
+      "prixM2Refection": 157,
+      "prixM2Demoussage": 31,
+      "delaiMoyenJours": 16
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 390,
+    "landmarks": [
+      "les ruelles de village provençal en colline",
+      "les oliveraies et la garrigue méditerranéenne"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "Cap-d'Ail",
+    "slug": "cap-d-ail",
+    "codeInsee": "06032",
+    "codePostal": "06320",
+    "population": 4482,
+    "latitude": 43.7256,
+    "longitude": 7.4008,
+    "intercommunalite": "Métropole Nice Côte d'Azur",
+    "introText": "Les villas et habitations situées à Cap-d'Ail subissent des agressions climatiques constantes liées à la façade maritime très exposée aux embruns salins méditerranéens. Avec 4 482 habitants, la commune possède un patrimoine architectural où dominent les immeubles résidentiels collectifs aux toits-terrasses équipés de membranes d'étanchéité multicouches de qualité supérieure. Une toiture en bon état y garantit une valorisation immobilière substantielle de 5 à 10% pour votre propriété, face aux fortes chaleurs d'été et orages d'automne.",
+    "conseilLocal": "Faites réaliser un contrôle visuel de vos tuiles et gouttières à Cap-d'Ail en fin d'été avant les intempéries d'automne. Les orages azuréens sont brefs mais très intenses, pouvant saturer les descentes de gouttières non nettoyées en quelques minutes.",
+    "faq": [
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Cap-d'Ail ?",
+        "a": "Le tarif d'une réfection de toiture à Cap-d'Ail dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Cap-d'Ail ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Cap-d'Ail ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Cap-d'Ail ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 13,
+      "prixM2Refection": 169,
+      "prixM2Demoussage": 30,
+      "delaiMoyenJours": 14
+    },
+    "microRegion": "littoral-riviera",
+    "microRegionLabel": "Littoral de la Riviera",
+    "altitude": 80,
+    "landmarks": [
+      "les plages de galets et les ports de plaisance de la Riviera",
+      "les promenades maritimes bordées de palmiers"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal terre cuite premium ou tuile plate Marseille",
+      "fixation": "Crochets et vis en acier inoxydable qualité marine obligatoire",
+      "ventilation": "Closoirs de faîtage ventilés continus et grilles anti-corrosives",
+      "ecran": "Écran de sous-toiture HPV haute résistance salin/UV"
+    }
+  },
+  {
+    "nom": "Saint-Jeannet",
+    "slug": "saint-jeannet",
+    "codeInsee": "06122",
+    "codePostal": "06640",
+    "population": 4453,
+    "latitude": 43.7619,
+    "longitude": 7.1477,
+    "intercommunalite": "Métropole Nice Côte d'Azur",
+    "introText": "Au cœur de l'intercommunalité Métropole Nice Côte d'Azur, Saint-Jeannet bénéficie d'une situation géographique unique. Cependant, son climat soumis à un orages d'automne intenses, variations thermiques jour/nuit marquées et fort ensoleillement engendre un infiltration par fort vent sur les toits à forte pente et débordement rapide des gouttières lors d'orages violents important. La toiture d'une villa de standing à Saint-Jeannet exige un savoir-faire azuréen qualifié (DTU 43.1 / 40.21) pour assurer l'étanchéité à sec avec closoir ventilé et écran sous-toiture performant.",
+    "conseilLocal": "Le Plan Local d'Urbanisme (PLU) de Saint-Jeannet encadre strictement la forme des toits et la teinte des tuiles (tuile canal ocre, jaune paille ou flammée). Consultez le service urbanisme en mairie avant tout démarrage de chantier.",
+    "faq": [
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Saint-Jeannet ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Saint-Jeannet ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Saint-Jeannet, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Saint-Jeannet ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Saint-Jeannet ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 15,
+      "prixM2Refection": 170,
+      "prixM2Demoussage": 29,
+      "delaiMoyenJours": 5
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 400,
+    "landmarks": [
+      "les ruelles de village provençal en colline",
+      "les oliveraies et la garrigue méditerranéenne"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "Gattières",
+    "slug": "gattieres",
+    "codeInsee": "06064",
+    "codePostal": "06510",
+    "population": 4358,
+    "latitude": 43.769,
+    "longitude": 7.1675,
+    "intercommunalite": "Métropole Nice Côte d'Azur",
+    "introText": "Au cœur de l'intercommunalité Métropole Nice Côte d'Azur, Gattières bénéficie d'une situation géographique unique. Cependant, son climat soumis à un orages d'automne intenses, variations thermiques jour/nuit marquées et fort ensoleillement engendre un infiltration par fort vent sur les toits à forte pente et débordement rapide des gouttières lors d'orages violents important. La toiture d'une villa de standing à Gattières exige un savoir-faire azuréen qualifié (DTU 43.1 / 40.21) pour assurer l'étanchéité à sec avec closoir ventilé et écran sous-toiture performant.",
+    "conseilLocal": "À Gattières, l'exposition saline littoral impose d'utiliser exclusivement des matériaux anticorrosion de haute résistance comme le cuivre ou l'acier inoxydable à la place du zinc brut classique, qui s'oxyde en moins de 8 ans.",
+    "faq": [
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Gattières ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Gattières ?",
+        "a": "Le tarif d'une réfection de toiture à Gattières dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Gattières ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Gattières, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Gattières ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 3,
+      "prixM2Refection": 151,
+      "prixM2Demoussage": 30,
+      "delaiMoyenJours": 12
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 280,
+    "landmarks": [
+      "les ruelles de village provençal en colline",
+      "les oliveraies et la garrigue méditerranéenne"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "Le Rouret",
+    "slug": "le-rouret",
+    "codeInsee": "06112",
+    "codePostal": "06650",
+    "population": 4209,
+    "latitude": 43.6803,
+    "longitude": 7.0081,
+    "intercommunalite": "Communauté d'agglomération Sophia Antipolis",
+    "introText": "Pour rénover ou entretenir votre toiture à Le Rouret (06650) dans les Alpes-Maritimes, faites appel à des experts de la Riviera. Le climat méditerranéen caractérisé par son orages d'automne intenses, variations thermiques jour/nuit marquées et fort ensoleillement nécessite une attention particulière. À proximité de les ruelles de village provençal en colline, le parc immobilier composé de anciennes bergeries restaurées aux charpentes apparentes en chêne et couvertures en tuiles canal d'époque exige des matériaux de haute qualité, comme des tuiles de Marseille, du cuivre ou de l'inox pour parer au vieillissement.",
+    "conseilLocal": "Pour tous travaux de rénovation énergétique sous toiture (isolation sarking, rampants) à Le Rouret, assurez-vous de choisir un artisan qualifié RGE du 06 afin de bénéficier de la TVA réduite à 5,5% et des subventions d'État.",
+    "faq": [
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Le Rouret ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Le Rouret, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Le Rouret ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Le Rouret ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Le Rouret ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 6,
+      "prixM2Refection": 188,
+      "prixM2Demoussage": 30,
+      "delaiMoyenJours": 7
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 310,
+    "landmarks": [
+      "les ruelles de village provençal en colline",
+      "les oliveraies et la garrigue méditerranéenne"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "Tourrettes-sur-Loup",
+    "slug": "tourrettes-sur-loup",
+    "codeInsee": "06148",
+    "codePostal": "06140",
+    "population": 4165,
+    "latitude": 43.718,
+    "longitude": 7.0353,
+    "intercommunalite": "Communauté d'agglomération Sophia Antipolis",
+    "introText": "Pour rénover ou entretenir votre toiture à Tourrettes-sur-Loup (06140) dans les Alpes-Maritimes, faites appel à des experts de la Riviera. Le climat méditerranéen caractérisé par son orages d'automne intenses, variations thermiques jour/nuit marquées et fort ensoleillement nécessite une attention particulière. À proximité de les ruelles de village provençal en colline, le parc immobilier composé de anciennes bergeries restaurées aux charpentes apparentes en chêne et couvertures en tuiles canal d'époque exige des matériaux de haute qualité, comme des tuiles de Marseille, du cuivre ou de l'inox pour parer au vieillissement.",
+    "conseilLocal": "Pour tous travaux de rénovation énergétique sous toiture (isolation sarking, rampants) à Tourrettes-sur-Loup, assurez-vous de choisir un artisan qualifié RGE du 06 afin de bénéficier de la TVA réduite à 5,5% et des subventions d'État.",
+    "faq": [
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Tourrettes-sur-Loup ?",
+        "a": "Le tarif d'une réfection de toiture à Tourrettes-sur-Loup dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Tourrettes-sur-Loup ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Tourrettes-sur-Loup ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Tourrettes-sur-Loup ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 10,
+      "prixM2Refection": 152,
+      "prixM2Demoussage": 34,
+      "delaiMoyenJours": 9
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 400,
+    "landmarks": [
+      "les ruelles de village provençal en colline",
+      "les oliveraies et la garrigue méditerranéenne"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "Saint-Cézaire-sur-Siagne",
+    "slug": "saint-cezaire-sur-siagne",
+    "codeInsee": "06118",
+    "codePostal": "06530",
+    "population": 4056,
+    "latitude": 43.6592,
+    "longitude": 6.8049,
+    "intercommunalite": "Communauté d'agglomération du Pays de Grasse",
+    "introText": "Au cœur de l'intercommunalité Communauté d'agglomération du Pays de Grasse, Saint-Cézaire-sur-Siagne bénéficie d'une situation géographique unique. Cependant, son climat soumis à un orages d'automne intenses, variations thermiques jour/nuit marquées et fort ensoleillement engendre un infiltration par fort vent sur les toits à forte pente et débordement rapide des gouttières lors d'orages violents important. La toiture d'une villa de standing à Saint-Cézaire-sur-Siagne exige un savoir-faire azuréen qualifié (DTU 43.1 / 40.21) pour assurer l'étanchéité à sec avec closoir ventilé et écran sous-toiture performant.",
+    "conseilLocal": "À Saint-Cézaire-sur-Siagne, l'exposition saline littoral impose d'utiliser exclusivement des matériaux anticorrosion de haute résistance comme le cuivre ou l'acier inoxydable à la place du zinc brut classique, qui s'oxyde en moins de 8 ans.",
+    "faq": [
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Saint-Cézaire-sur-Siagne ?",
+        "a": "Le tarif d'une réfection de toiture à Saint-Cézaire-sur-Siagne dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Saint-Cézaire-sur-Siagne ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Saint-Cézaire-sur-Siagne ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Saint-Cézaire-sur-Siagne ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 10,
+      "prixM2Refection": 157,
+      "prixM2Demoussage": 34,
+      "delaiMoyenJours": 14
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 475,
+    "landmarks": [
+      "les ruelles de village provençal en colline",
+      "les oliveraies et la garrigue méditerranéenne"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "Beaulieu-sur-Mer",
+    "slug": "beaulieu-sur-mer",
+    "codeInsee": "06011",
+    "codePostal": "06310",
+    "population": 3874,
+    "latitude": 43.7081,
+    "longitude": 7.3324,
+    "intercommunalite": "Métropole Nice Côte d'Azur",
+    "introText": "Pour rénover ou entretenir votre toiture à Beaulieu-sur-Mer (06310) dans les Alpes-Maritimes, faites appel à des experts de la Riviera. Le climat méditerranéen caractérisé par son exposition directe au sel corrosif, au soleil intense du sud et aux entrées maritimes humides nécessite une attention particulière. À proximité de la villa grecque Kérylos, le parc immobilier composé de villas Belle Époque de standing d'architecte, de résidences de front de mer aux toitures terrasses étanches et de propriétés de prestige sur le littoral exige des matériaux de haute qualité, comme des tuiles de Marseille, du cuivre ou de l'inox pour parer au vieillissement.",
+    "conseilLocal": "À Beaulieu-sur-Mer, l'exposition saline littoral impose d'utiliser exclusivement des matériaux anticorrosion de haute résistance comme le cuivre ou l'acier inoxydable à la place du zinc brut classique, qui s'oxyde en moins de 8 ans.",
+    "faq": [
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Beaulieu-sur-Mer ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Beaulieu-sur-Mer ?",
+        "a": "Le tarif d'une réfection de toiture à Beaulieu-sur-Mer dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Beaulieu-sur-Mer ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Beaulieu-sur-Mer, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Beaulieu-sur-Mer ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 5,
+      "prixM2Refection": 181,
+      "prixM2Demoussage": 27,
+      "delaiMoyenJours": 14
+    },
+    "microRegion": "littoral-riviera",
+    "microRegionLabel": "Littoral de la Riviera",
+    "altitude": 10,
+    "landmarks": [
+      "la villa grecque Kérylos",
+      "le port de plaisance chic et le casino historique"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal terre cuite premium ou tuile plate Marseille",
+      "fixation": "Crochets et vis en acier inoxydable qualité marine obligatoire",
+      "ventilation": "Closoirs de faîtage ventilés continus et grilles anti-corrosives",
+      "ecran": "Écran de sous-toiture HPV haute résistance salin/UV"
+    }
+  },
+  {
+    "nom": "Châteauneuf-Grasse",
+    "slug": "chateauneuf-grasse",
+    "codeInsee": "06038",
+    "codePostal": "06740",
+    "population": 3815,
+    "latitude": 43.6626,
+    "longitude": 6.9792,
+    "intercommunalite": "Communauté d'agglomération Sophia Antipolis",
+    "introText": "Pour rénover ou entretenir votre toiture à Châteauneuf-Grasse (06740) dans les Alpes-Maritimes, faites appel à des experts de la Riviera. Le climat méditerranéen caractérisé par son orages d'automne intenses, variations thermiques jour/nuit marquées et fort ensoleillement nécessite une attention particulière. À proximité de les ruelles de village provençal en colline, le parc immobilier composé de maisons provençales individuelles avec toiture 2 ou 4 pans en tuiles de Marseille ou tuiles romanes traditionnelles exige des matériaux de haute qualité, comme des tuiles de Marseille, du cuivre ou de l'inox pour parer au vieillissement.",
+    "conseilLocal": "Le Plan Local d'Urbanisme (PLU) de Châteauneuf-Grasse encadre strictement la forme des toits et la teinte des tuiles (tuile canal ocre, jaune paille ou flammée). Consultez le service urbanisme en mairie avant tout démarrage de chantier.",
+    "faq": [
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Châteauneuf-Grasse ?",
+        "a": "Le tarif d'une réfection de toiture à Châteauneuf-Grasse dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Châteauneuf-Grasse ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Châteauneuf-Grasse ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Châteauneuf-Grasse, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Châteauneuf-Grasse ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 4,
+      "prixM2Refection": 136,
+      "prixM2Demoussage": 24,
+      "delaiMoyenJours": 17
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 410,
+    "landmarks": [
+      "les ruelles de village provençal en colline",
+      "les oliveraies et la garrigue méditerranéenne"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "Sospel",
+    "slug": "sospel",
+    "codeInsee": "06136",
+    "codePostal": "06380",
+    "population": 3791,
+    "latitude": 43.8872,
+    "longitude": 7.4493,
+    "intercommunalite": "Communauté de la Riviera Française",
+    "introText": "Pour rénover ou entretenir votre toiture à Sospel (06380) dans les Alpes-Maritimes, faites appel à des experts de la Riviera. Le climat méditerranéen caractérisé par son hivers rigoureux avec risques de gel et neige, amplitudes thermiques importantes et pluies cévenoles/méditerranéennes intenses nécessite une attention particulière. À proximité de les vallées préservées de la Tinée et de la Vésubie, le parc immobilier composé de maisons de montagne en pierres apparentes coiffées de tuiles canal épaisses scellées au mortier ou de couvertures résistantes exige des matériaux de haute qualité, comme des tuiles de Marseille, du cuivre ou de l'inox pour parer au vieillissement.",
+    "conseilLocal": "À Sospel, l'exposition saline littoral impose d'utiliser exclusivement des matériaux anticorrosion de haute résistance comme le cuivre ou l'acier inoxydable à la place du zinc brut classique, qui s'oxyde en moins de 8 ans.",
+    "faq": [
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Sospel ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Sospel, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Sospel ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Sospel ?",
+        "a": "Le tarif d'une réfection de toiture à Sospel dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Sospel ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 16,
+      "prixM2Refection": 141,
+      "prixM2Demoussage": 29,
+      "delaiMoyenJours": 18
+    },
+    "microRegion": "arriere-pays-montagne",
+    "microRegionLabel": "Arrière-Pays & Reliefs du Mercantour",
+    "altitude": 350,
+    "landmarks": [
+      "les vallées préservées de la Tinée et de la Vésubie",
+      "les reliefs alpins et les forêts du Mercantour"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal épaisse ou tuile béton résistance gel",
+      "fixation": "Fixation complète de chaque tuile par vis inox",
+      "ventilation": "Closoirs en aluminium rigide ventilés",
+      "ecran": "Écran de sous-toiture pare-neige rigide résistant au gel"
+    }
+  },
+  {
+    "nom": "Saint-Vallier-de-Thiey",
+    "slug": "saint-vallier-de-thiey",
+    "codeInsee": "06130",
+    "codePostal": "06460",
+    "population": 3658,
+    "latitude": 43.6994,
+    "longitude": 6.8516,
+    "intercommunalite": "Communauté d'agglomération du Pays de Grasse",
+    "introText": "Au cœur de l'intercommunalité Communauté d'agglomération du Pays de Grasse, Saint-Vallier-de-Thiey bénéficie d'une situation géographique unique. Cependant, son climat soumis à un hivers rigoureux avec risques de gel et neige, amplitudes thermiques importantes et pluies cévenoles/méditerranéennes intenses engendre un surcharge de neige sur la charpente, glissement des tuiles par le gel et infiltration d'eau lors des fontes rapides important. La toiture d'une villa de standing à Saint-Vallier-de-Thiey exige un savoir-faire azuréen qualifié (DTU 43.1 / 40.21) pour assurer l'étanchéité à sec avec closoir ventilé et écran sous-toiture performant.",
+    "conseilLocal": "Le Plan Local d'Urbanisme (PLU) de Saint-Vallier-de-Thiey encadre strictement la forme des toits et la teinte des tuiles (tuile canal ocre, jaune paille ou flammée). Consultez le service urbanisme en mairie avant tout démarrage de chantier.",
+    "faq": [
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Saint-Vallier-de-Thiey ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Saint-Vallier-de-Thiey ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Saint-Vallier-de-Thiey ?",
+        "a": "Le tarif d'une réfection de toiture à Saint-Vallier-de-Thiey dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Saint-Vallier-de-Thiey ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Saint-Vallier-de-Thiey, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 17,
+      "prixM2Refection": 156,
+      "prixM2Demoussage": 26,
+      "delaiMoyenJours": 15
+    },
+    "microRegion": "arriere-pays-montagne",
+    "microRegionLabel": "Arrière-Pays & Reliefs du Mercantour",
+    "altitude": 720,
+    "landmarks": [
+      "les vallées préservées de la Tinée et de la Vésubie",
+      "les reliefs alpins et les forêts du Mercantour"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal épaisse ou tuile béton résistance gel",
+      "fixation": "Fixation complète de chaque tuile par vis inox",
+      "ventilation": "Closoirs en aluminium rigide ventilés",
+      "ecran": "Écran de sous-toiture pare-neige rigide résistant au gel"
+    }
+  },
+  {
+    "nom": "Saint-Martin-du-Var",
+    "slug": "saint-martin-du-var",
+    "codeInsee": "06126",
+    "codePostal": "06670",
+    "population": 3431,
+    "latitude": 43.8168,
+    "longitude": 7.2012,
+    "intercommunalite": "Communauté de communes du Pays des Paillons",
+    "introText": "Au cœur de l'intercommunalité Communauté de communes du Pays des Paillons, Saint-Martin-du-Var bénéficie d'une situation géographique unique. Cependant, son climat soumis à un orages d'automne intenses, variations thermiques jour/nuit marquées et fort ensoleillement engendre un infiltration par fort vent sur les toits à forte pente et débordement rapide des gouttières lors d'orages violents important. La toiture d'une villa de standing à Saint-Martin-du-Var exige un savoir-faire azuréen qualifié (DTU 43.1 / 40.21) pour assurer l'étanchéité à sec avec closoir ventilé et écran sous-toiture performant.",
+    "conseilLocal": "Le Plan Local d'Urbanisme (PLU) de Saint-Martin-du-Var encadre strictement la forme des toits et la teinte des tuiles (tuile canal ocre, jaune paille ou flammée). Consultez le service urbanisme en mairie avant tout démarrage de chantier.",
+    "faq": [
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Saint-Martin-du-Var ?",
+        "a": "Le tarif d'une réfection de toiture à Saint-Martin-du-Var dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Saint-Martin-du-Var ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Saint-Martin-du-Var ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Saint-Martin-du-Var, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Saint-Martin-du-Var ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 10,
+      "prixM2Refection": 158,
+      "prixM2Demoussage": 29,
+      "delaiMoyenJours": 7
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 110,
+    "landmarks": [
+      "les ruelles de village provençal en colline",
+      "les oliveraies et la garrigue méditerranéenne"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "Colomars",
+    "slug": "colomars",
+    "codeInsee": "06046",
+    "codePostal": "06670",
+    "population": 3409,
+    "latitude": 43.757,
+    "longitude": 7.2212,
+    "intercommunalite": "Métropole Nice Côte d'Azur",
+    "introText": "Les villas et habitations situées à Colomars subissent des agressions climatiques constantes liées à la collines boisées et vallons à forte pente du moyen-pays. Avec 3 409 habitants, la commune possède un patrimoine architectural où dominent les villas de standing implantées sur les hauteurs avec toits en tuiles terre cuite scellées de grande qualité. Une toiture en bon état y garantit une valorisation immobilière substantielle de 5 à 10% pour votre propriété, face aux fortes chaleurs d'été et orages d'automne.",
+    "conseilLocal": "Faites réaliser un contrôle visuel de vos tuiles et gouttières à Colomars en fin d'été avant les intempéries d'automne. Les orages azuréens sont brefs mais très intenses, pouvant saturer les descentes de gouttières non nettoyées en quelques minutes.",
+    "faq": [
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Colomars ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Colomars ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Colomars, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Colomars ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Colomars ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 15,
+      "prixM2Refection": 139,
+      "prixM2Demoussage": 34,
+      "delaiMoyenJours": 14
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 300,
+    "landmarks": [
+      "les ruelles de village provençal en colline",
+      "les oliveraies et la garrigue méditerranéenne"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "Auribeau-sur-Siagne",
+    "slug": "auribeau-sur-siagne",
+    "codeInsee": "06007",
+    "codePostal": "06810",
+    "population": 3401,
+    "latitude": 43.6105,
+    "longitude": 6.9118,
+    "intercommunalite": "Communauté d'agglomération du Pays de Grasse",
+    "introText": "Les villas et habitations situées à Auribeau-sur-Siagne subissent des agressions climatiques constantes liées à la collines boisées et vallons à forte pente du moyen-pays. Avec 3 401 habitants, la commune possède un patrimoine architectural où dominent les anciennes bergeries restaurées aux charpentes apparentes en chêne et couvertures en tuiles canal d'époque. Une toiture en bon état y garantit une valorisation immobilière substantielle de 5 à 10% pour votre propriété, face aux fortes chaleurs d'été et orages d'automne.",
+    "conseilLocal": "Pour tous travaux de rénovation énergétique sous toiture (isolation sarking, rampants) à Auribeau-sur-Siagne, assurez-vous de choisir un artisan qualifié RGE du 06 afin de bénéficier de la TVA réduite à 5,5% et des subventions d'État.",
+    "faq": [
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Auribeau-sur-Siagne ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Auribeau-sur-Siagne ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Auribeau-sur-Siagne, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Auribeau-sur-Siagne ?",
+        "a": "Le tarif d'une réfection de toiture à Auribeau-sur-Siagne dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Auribeau-sur-Siagne ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 12,
+      "prixM2Refection": 156,
+      "prixM2Demoussage": 29,
+      "delaiMoyenJours": 11
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 120,
+    "landmarks": [
+      "les ruelles de village provençal en colline",
+      "les oliveraies et la garrigue méditerranéenne"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "Le Tignet",
+    "slug": "le-tignet",
+    "codeInsee": "06140",
+    "codePostal": "06530",
+    "population": 3212,
+    "latitude": 43.6257,
+    "longitude": 6.8538,
+    "intercommunalite": "Communauté d'agglomération du Pays de Grasse",
+    "introText": "Au cœur de l'intercommunalité Communauté d'agglomération du Pays de Grasse, Le Tignet bénéficie d'une situation géographique unique. Cependant, son climat soumis à un orages d'automne intenses, variations thermiques jour/nuit marquées et fort ensoleillement engendre un infiltration par fort vent sur les toits à forte pente et débordement rapide des gouttières lors d'orages violents important. La toiture d'une villa de standing à Le Tignet exige un savoir-faire azuréen qualifié (DTU 43.1 / 40.21) pour assurer l'étanchéité à sec avec closoir ventilé et écran sous-toiture performant.",
+    "conseilLocal": "Le Plan Local d'Urbanisme (PLU) de Le Tignet encadre strictement la forme des toits et la teinte des tuiles (tuile canal ocre, jaune paille ou flammée). Consultez le service urbanisme en mairie avant tout démarrage de chantier.",
+    "faq": [
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Le Tignet ?",
+        "a": "Le tarif d'une réfection de toiture à Le Tignet dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Le Tignet ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Le Tignet ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Le Tignet ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Le Tignet, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 3,
+      "prixM2Refection": 162,
+      "prixM2Demoussage": 21,
+      "delaiMoyenJours": 5
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 280,
+    "landmarks": [
+      "les ruelles de village provençal en colline",
+      "les oliveraies et la garrigue méditerranéenne"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "Saint-Paul-de-Vence",
+    "slug": "saint-paul-de-vence",
+    "codeInsee": "06128",
+    "codePostal": "06570",
+    "population": 3203,
+    "latitude": 43.6928,
+    "longitude": 7.1196,
+    "intercommunalite": "Communauté d'agglomération Sophia Antipolis",
+    "introText": "Pour rénover ou entretenir votre toiture à Saint-Paul-de-Vence (06570) dans les Alpes-Maritimes, faites appel à des experts de la Riviera. Le climat méditerranéen caractérisé par son orages d'automne intenses, variations thermiques jour/nuit marquées et fort ensoleillement nécessite une attention particulière. À proximité de les remparts médiévaux et la Fondation Maeght, le parc immobilier composé de villas de standing implantées sur les hauteurs avec toits en tuiles terre cuite scellées de grande qualité exige des matériaux de haute qualité, comme des tuiles de Marseille, du cuivre ou de l'inox pour parer au vieillissement.",
+    "conseilLocal": "Faites réaliser un contrôle visuel de vos tuiles et gouttières à Saint-Paul-de-Vence en fin d'été avant les intempéries d'automne. Les orages azuréens sont brefs mais très intenses, pouvant saturer les descentes de gouttières non nettoyées en quelques minutes.",
+    "faq": [
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Saint-Paul-de-Vence ?",
+        "a": "Le tarif d'une réfection de toiture à Saint-Paul-de-Vence dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Saint-Paul-de-Vence ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Saint-Paul-de-Vence ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Saint-Paul-de-Vence, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Saint-Paul-de-Vence ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 10,
+      "prixM2Refection": 189,
+      "prixM2Demoussage": 21,
+      "delaiMoyenJours": 10
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 180,
+    "landmarks": [
+      "les remparts médiévaux et la Fondation Maeght",
+      "les galeries d'art et les pavés chargés d'histoire"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "La Turbie",
+    "slug": "la-turbie",
+    "codeInsee": "06150",
+    "codePostal": "06320",
+    "population": 3045,
+    "latitude": 43.7462,
+    "longitude": 7.3973,
+    "intercommunalite": "Communauté de la Riviera Française",
+    "introText": "Les villas et habitations situées à La Turbie subissent des agressions climatiques constantes liées à la collines boisées et vallons à forte pente du moyen-pays. Avec 3 045 habitants, la commune possède un patrimoine architectural où dominent les anciennes bergeries restaurées aux charpentes apparentes en chêne et couvertures en tuiles canal d'époque. Une toiture en bon état y garantit une valorisation immobilière substantielle de 5 à 10% pour votre propriété, face aux fortes chaleurs d'été et orages d'automne.",
+    "conseilLocal": "Pour tous travaux de rénovation énergétique sous toiture (isolation sarking, rampants) à La Turbie, assurez-vous de choisir un artisan qualifié RGE du 06 afin de bénéficier de la TVA réduite à 5,5% et des subventions d'État.",
+    "faq": [
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à La Turbie ?",
+        "a": "Le tarif d'une réfection de toiture à La Turbie dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à La Turbie ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à La Turbie ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à La Turbie ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 15,
+      "prixM2Refection": 160,
+      "prixM2Demoussage": 33,
+      "delaiMoyenJours": 15
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 480,
+    "landmarks": [
+      "les ruelles de village provençal en colline",
+      "les oliveraies et la garrigue méditerranéenne"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "Le Bar-sur-Loup",
+    "slug": "le-bar-sur-loup",
+    "codeInsee": "06010",
+    "codePostal": "06620",
+    "population": 2974,
+    "latitude": 43.6993,
+    "longitude": 6.9674,
+    "intercommunalite": "Communauté d'agglomération du Pays de Grasse",
+    "introText": "Pour rénover ou entretenir votre toiture à Le Bar-sur-Loup (06620) dans les Alpes-Maritimes, faites appel à des experts de la Riviera. Le climat méditerranéen caractérisé par son orages d'automne intenses, variations thermiques jour/nuit marquées et fort ensoleillement nécessite une attention particulière. À proximité de les ruelles de village provençal en colline, le parc immobilier composé de anciennes bergeries restaurées aux charpentes apparentes en chêne et couvertures en tuiles canal d'époque exige des matériaux de haute qualité, comme des tuiles de Marseille, du cuivre ou de l'inox pour parer au vieillissement.",
+    "conseilLocal": "Pour tous travaux de rénovation énergétique sous toiture (isolation sarking, rampants) à Le Bar-sur-Loup, assurez-vous de choisir un artisan qualifié RGE du 06 afin de bénéficier de la TVA réduite à 5,5% et des subventions d'État.",
+    "faq": [
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Le Bar-sur-Loup ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Le Bar-sur-Loup ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      },
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Le Bar-sur-Loup ?",
+        "a": "Le tarif d'une réfection de toiture à Le Bar-sur-Loup dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Le Bar-sur-Loup ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Le Bar-sur-Loup, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 14,
+      "prixM2Refection": 164,
+      "prixM2Demoussage": 32,
+      "delaiMoyenJours": 5
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 320,
+    "landmarks": [
+      "les ruelles de village provençal en colline",
+      "les oliveraies et la garrigue méditerranéenne"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "L'Escarène",
+    "slug": "l-escarene",
+    "codeInsee": "06057",
+    "codePostal": "06440",
+    "population": 2585,
+    "latitude": 43.8303,
+    "longitude": 7.3665,
+    "intercommunalite": "Communauté de communes du Pays des Paillons",
+    "introText": "Les villas et habitations situées à L'Escarène subissent des agressions climatiques constantes liées à la vallées montagneuses et contreforts des Alpes du Sud. Avec 2 585 habitants, la commune possède un patrimoine architectural où dominent les maisons de village serrées en schiste, aux toitures imbriquées nécessitant des interventions complexes à l'échafaudage. Une toiture en bon état y garantit une valorisation immobilière substantielle de 5 à 10% pour votre propriété, face aux fortes chaleurs d'été et orages d'automne.",
+    "conseilLocal": "Pour tous travaux de rénovation énergétique sous toiture (isolation sarking, rampants) à L'Escarène, assurez-vous de choisir un artisan qualifié RGE du 06 afin de bénéficier de la TVA réduite à 5,5% et des subventions d'État.",
+    "faq": [
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à L'Escarène ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de L'Escarène ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à L'Escarène, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à L'Escarène ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à L'Escarène ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 16,
+      "prixM2Refection": 146,
+      "prixM2Demoussage": 28,
+      "delaiMoyenJours": 11
+    },
+    "microRegion": "arriere-pays-montagne",
+    "microRegionLabel": "Arrière-Pays & Reliefs du Mercantour",
+    "altitude": 330,
+    "landmarks": [
+      "les vallées préservées de la Tinée et de la Vésubie",
+      "les reliefs alpins et les forêts du Mercantour"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal épaisse ou tuile béton résistance gel",
+      "fixation": "Fixation complète de chaque tuile par vis inox",
+      "ventilation": "Closoirs en aluminium rigide ventilés",
+      "ecran": "Écran de sous-toiture pare-neige rigide résistant au gel"
+    }
+  },
+  {
+    "nom": "Opio",
+    "slug": "opio",
+    "codeInsee": "06089",
+    "codePostal": "06650",
+    "population": 2527,
+    "latitude": 43.6574,
+    "longitude": 7.0094,
+    "intercommunalite": "Communauté d'agglomération Sophia Antipolis",
+    "introText": "Au cœur de l'intercommunalité Communauté d'agglomération Sophia Antipolis, Opio bénéficie d'une situation géographique unique. Cependant, son climat soumis à un orages d'automne intenses, variations thermiques jour/nuit marquées et fort ensoleillement engendre un infiltration par fort vent sur les toits à forte pente et débordement rapide des gouttières lors d'orages violents important. La toiture d'une villa de standing à Opio exige un savoir-faire azuréen qualifié (DTU 43.1 / 40.21) pour assurer l'étanchéité à sec avec closoir ventilé et écran sous-toiture performant.",
+    "conseilLocal": "Pour tous travaux de rénovation énergétique sous toiture (isolation sarking, rampants) à Opio, assurez-vous de choisir un artisan qualifié RGE du 06 afin de bénéficier de la TVA réduite à 5,5% et des subventions d'État.",
+    "faq": [
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Opio ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Opio ?",
+        "a": "Le tarif d'une réfection de toiture à Opio dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Opio ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Opio ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Opio, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 13,
+      "prixM2Refection": 138,
+      "prixM2Demoussage": 27,
+      "delaiMoyenJours": 7
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 290,
+    "landmarks": [
+      "les ruelles de village provençal en colline",
+      "les oliveraies et la garrigue méditerranéenne"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "Breil-sur-Roya",
+    "slug": "breil-sur-roya",
+    "codeInsee": "06023",
+    "codePostal": "06540",
+    "population": 2377,
+    "latitude": 43.9379,
+    "longitude": 7.4996,
+    "intercommunalite": "Communauté de la Riviera Française",
+    "introText": "Les villas et habitations situées à Breil-sur-Roya subissent des agressions climatiques constantes liées à la vallées montagneuses et contreforts des Alpes du Sud. Avec 2 377 habitants, la commune possède un patrimoine architectural où dominent les bastides isolées de moyenne montagne dotées de toitures en tuiles canal robustes résistant au gel et à la neige. Une toiture en bon état y garantit une valorisation immobilière substantielle de 5 à 10% pour votre propriété, face aux fortes chaleurs d'été et orages d'automne.",
+    "conseilLocal": "Le Plan Local d'Urbanisme (PLU) de Breil-sur-Roya encadre strictement la forme des toits et la teinte des tuiles (tuile canal ocre, jaune paille ou flammée). Consultez le service urbanisme en mairie avant tout démarrage de chantier.",
+    "faq": [
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Breil-sur-Roya ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Breil-sur-Roya, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Breil-sur-Roya ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Breil-sur-Roya ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Breil-sur-Roya ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 17,
+      "prixM2Refection": 160,
+      "prixM2Demoussage": 34,
+      "delaiMoyenJours": 11
+    },
+    "microRegion": "arriere-pays-montagne",
+    "microRegionLabel": "Arrière-Pays & Reliefs du Mercantour",
+    "altitude": 350,
+    "landmarks": [
+      "les vallées préservées de la Tinée et de la Vésubie",
+      "les reliefs alpins et les forêts du Mercantour"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal épaisse ou tuile béton résistance gel",
+      "fixation": "Fixation complète de chaque tuile par vis inox",
+      "ventilation": "Closoirs en aluminium rigide ventilés",
+      "ecran": "Écran de sous-toiture pare-neige rigide résistant au gel"
+    }
+  },
+  {
+    "nom": "Aspremont",
+    "slug": "aspremont",
+    "codeInsee": "06006",
+    "codePostal": "06790",
+    "population": 2346,
+    "latitude": 43.7772,
+    "longitude": 7.2423,
+    "intercommunalite": "Métropole Nice Côte d'Azur",
+    "introText": "Au cœur de l'intercommunalité Métropole Nice Côte d'Azur, Aspremont bénéficie d'une situation géographique unique. Cependant, son climat soumis à un orages d'automne intenses, variations thermiques jour/nuit marquées et fort ensoleillement engendre un infiltration par fort vent sur les toits à forte pente et débordement rapide des gouttières lors d'orages violents important. La toiture d'une villa de standing à Aspremont exige un savoir-faire azuréen qualifié (DTU 43.1 / 40.21) pour assurer l'étanchéité à sec avec closoir ventilé et écran sous-toiture performant.",
+    "conseilLocal": "Pour tous travaux de rénovation énergétique sous toiture (isolation sarking, rampants) à Aspremont, assurez-vous de choisir un artisan qualifié RGE du 06 afin de bénéficier de la TVA réduite à 5,5% et des subventions d'État.",
+    "faq": [
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Aspremont ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Aspremont ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Aspremont, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Aspremont ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Aspremont ?",
+        "a": "Le tarif d'une réfection de toiture à Aspremont dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 15,
+      "prixM2Refection": 188,
+      "prixM2Demoussage": 34,
+      "delaiMoyenJours": 11
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 500,
+    "landmarks": [
+      "les ruelles de village provençal en colline",
+      "les oliveraies et la garrigue méditerranéenne"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "Falicon",
+    "slug": "falicon",
+    "codeInsee": "06060",
+    "codePostal": "06950",
+    "population": 2185,
+    "latitude": 43.7533,
+    "longitude": 7.266,
+    "intercommunalite": "Métropole Nice Côte d'Azur",
+    "introText": "Pour rénover ou entretenir votre toiture à Falicon (06950) dans les Alpes-Maritimes, faites appel à des experts de la Riviera. Le climat méditerranéen caractérisé par son orages d'automne intenses, variations thermiques jour/nuit marquées et fort ensoleillement nécessite une attention particulière. À proximité de les ruelles de village provençal en colline, le parc immobilier composé de villas de standing implantées sur les hauteurs avec toits en tuiles terre cuite scellées de grande qualité exige des matériaux de haute qualité, comme des tuiles de Marseille, du cuivre ou de l'inox pour parer au vieillissement.",
+    "conseilLocal": "Faites réaliser un contrôle visuel de vos tuiles et gouttières à Falicon en fin d'été avant les intempéries d'automne. Les orages azuréens sont brefs mais très intenses, pouvant saturer les descentes de gouttières non nettoyées en quelques minutes.",
+    "faq": [
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Falicon ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Falicon, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Falicon ?",
+        "a": "Le tarif d'une réfection de toiture à Falicon dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Falicon ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Falicon ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 17,
+      "prixM2Refection": 169,
+      "prixM2Demoussage": 25,
+      "delaiMoyenJours": 14
+    },
+    "microRegion": "moyen-pays-collines",
+    "microRegionLabel": "Moyen-Pays & Collines Azuréennes",
+    "altitude": 380,
+    "landmarks": [
+      "les ruelles de village provençal en colline",
+      "les oliveraies et la garrigue méditerranéenne"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal ocre flammée ou tuile de Marseille",
+      "fixation": "Crochets galvanisés renforcés ou vis DTU 40.21",
+      "ventilation": "Tuiles chatières haute densité de ventilation",
+      "ecran": "Écran sous-toiture HPV réflectif thermique d'été"
+    }
+  },
+  {
+    "nom": "Èze",
+    "slug": "eze",
+    "codeInsee": "06059",
+    "codePostal": "06360",
+    "population": 2144,
+    "latitude": 43.7299,
+    "longitude": 7.3566,
+    "intercommunalite": "Métropole Nice Côte d'Azur",
+    "introText": "Les villas et habitations situées à Èze subissent des agressions climatiques constantes liées à la façade maritime très exposée aux embruns salins méditerranéens. Avec 2 144 habitants, la commune possède un patrimoine architectural où dominent les immeubles résidentiels collectifs aux toits-terrasses équipés de membranes d'étanchéité multicouches de qualité supérieure. Une toiture en bon état y garantit une valorisation immobilière substantielle de 5 à 10% pour votre propriété, face aux fortes chaleurs d'été et orages d'automne.",
+    "conseilLocal": "Faites réaliser un contrôle visuel de vos tuiles et gouttières à Èze en fin d'été avant les intempéries d'automne. Les orages azuréens sont brefs mais très intenses, pouvant saturer les descentes de gouttières non nettoyées en quelques minutes.",
+    "faq": [
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Èze ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Èze, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      },
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Èze ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Èze ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Peut-on réaliser une isolation thermique de toiture par l'extérieur (Sarking) à Èze ?",
+        "a": "Oui, l'isolation par sarking est la solution privilégiée pour les villas haut de gamme de la Riviera. Elle élimine 100% des ponts thermiques sans réduire la surface habitable intérieure sous les combles. De plus, elle offre d'excellentes aides RGE via MaPrimeRénov'."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 5,
+      "prixM2Refection": 169,
+      "prixM2Demoussage": 30,
+      "delaiMoyenJours": 18
+    },
+    "microRegion": "littoral-riviera",
+    "microRegionLabel": "Littoral de la Riviera",
+    "altitude": 429,
+    "landmarks": [
+      "le jardin exotique suspendu sur les falaises",
+      "les ruelles pavées perchées sur le nid d'aigle"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal terre cuite premium ou tuile plate Marseille",
+      "fixation": "Crochets et vis en acier inoxydable qualité marine obligatoire",
+      "ventilation": "Closoirs de faîtage ventilés continus et grilles anti-corrosives",
+      "ecran": "Écran de sous-toiture HPV haute résistance salin/UV"
+    }
+  },
+  {
+    "nom": "Peille",
+    "slug": "peille",
+    "codeInsee": "06091",
+    "codePostal": "06440",
+    "population": 2123,
+    "latitude": 43.8043,
+    "longitude": 7.4088,
+    "intercommunalite": "Communauté de communes du Pays des Paillons",
+    "introText": "Les villas et habitations situées à Peille subissent des agressions climatiques constantes liées à la vallées montagneuses et contreforts des Alpes du Sud. Avec 2 123 habitants, la commune possède un patrimoine architectural où dominent les bastides isolées de moyenne montagne dotées de toitures en tuiles canal robustes résistant au gel et à la neige. Une toiture en bon état y garantit une valorisation immobilière substantielle de 5 à 10% pour votre propriété, face aux fortes chaleurs d'été et orages d'automne.",
+    "conseilLocal": "Le Plan Local d'Urbanisme (PLU) de Peille encadre strictement la forme des toits et la teinte des tuiles (tuile canal ocre, jaune paille ou flammée). Consultez le service urbanisme en mairie avant tout démarrage de chantier.",
+    "faq": [
+      {
+        "q": "Les embruns marins endommagent-ils les toitures à Peille ?",
+        "a": "Oui, le sel marin transporté par le vent littoral corrode les éléments métalliques en zinc en quelques années. Les couvreurs azuréens préconisent l'usage de zinguerie en inox de qualité marine ou en cuivre, beaucoup plus résistants, ainsi qu'un nettoyage périodique anti-sel."
+      },
+      {
+        "q": "Comment réagir en cas d'infiltration après un violent orage d'automne à Peille ?",
+        "a": "Les orages d'automne sur la Côte d'Azur peuvent déverser 50mm en 1h. En cas de fuite, procédez à un bâchage d'urgence par un couvreur qualifié du 06 et contactez votre assurance dans les 5 jours pour l'indemnisation de la réfection."
+      },
+      {
+        "q": "Quel est le prix moyen d'une réfection de toiture à Peille ?",
+        "a": "Le tarif d'une réfection de toiture à Peille dépend des matériaux et de la pente. Pour une villa de standing, comptez en moyenne entre 140€ et 220€ le m² TTC pour des tuiles plates de Marseille ou des tuiles canal artisanales, pose, dépose et écran sous-toiture HPV compris."
+      },
+      {
+        "q": "Quel type de tuile est obligatoire dans les secteurs protégés de Peille ?",
+        "a": "Dans les zones sauvegardées soumises à l'avis de l'Architecte des Bâtiments de France (ABF) à Peille, les tuiles canal en terre cuite de teinte ocre, jaune paille ou flammée traditionnelle sont requises. Les génoises maçonnées doivent également respecter les DTU historiques."
+      }
+    ],
+    "marketData": {
+      "couvreursRGE": 10,
+      "prixM2Refection": 180,
+      "prixM2Demoussage": 23,
+      "delaiMoyenJours": 11
+    },
+    "microRegion": "arriere-pays-montagne",
+    "microRegionLabel": "Arrière-Pays & Reliefs du Mercantour",
+    "altitude": 630,
+    "landmarks": [
+      "les vallées préservées de la Tinée et de la Vésubie",
+      "les reliefs alpins et les forêts du Mercantour"
+    ],
+    "roofCharacteristics": {
+      "tuileDominante": "Tuile canal épaisse ou tuile béton résistance gel",
+      "fixation": "Fixation complète de chaque tuile par vis inox",
+      "ventilation": "Closoirs en aluminium rigide ventilés",
+      "ecran": "Écran de sous-toiture pare-neige rigide résistant au gel"
+    }
+  }
+]
