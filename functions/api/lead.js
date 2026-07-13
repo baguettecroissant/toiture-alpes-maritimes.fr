@@ -7,7 +7,7 @@
  */
 
 // ── Site-specific config (change per R&R site) ──
-const SITE_DOMAIN = 'toiture-des-alpes-maritimes.fr';
+const SITE_DOMAIN = 'toiture-alpes-maritimes.fr';
 const SITE_NICHE = 'toiture';
 const DEPT_CODE = '06';
 const CP_PATTERN = /^06\d{3}$/;
