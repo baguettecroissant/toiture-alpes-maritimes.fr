@@ -4,7 +4,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://toiture-des-alpes-maritimes.fr',
+  site: 'https://toiture06.fr',
   output: 'static',
   adapter: cloudflare({
     imageService: 'passthrough'
