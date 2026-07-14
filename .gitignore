@@ -26,3 +26,6 @@ pnpm-debug.log*
 # package manager caches and IDE settings
 .npm-cache/
 .vscode/
+
+# wrangler cache
+.wrangler/
